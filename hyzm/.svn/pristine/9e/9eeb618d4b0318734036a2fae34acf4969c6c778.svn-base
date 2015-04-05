@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.left_nav{padding-top:30px;}
+.dengji{line-height:44px;}
+.table span{font-weight:bold;font-size:16px;}
+
+.table p{color:#fff;}
+
+.user_right{position:relative;}
+
+/**/
+
+.table{width:890px;border:1px solid #bcbcbc;}
+.table td{height:39px;border-right:1px dotted #bcbcbc;border-bottom:1px dotted #bcbcbc;line-height:39px;text-align:center;}
+.tr_current{background:#B7EDFF;}
+.tr01{font-size:14px;}
+.red{color:#a00104;font-family:"微软雅黑";}
+.lvse{color:#009900;cursor:pointer;}
+.shengji{background:#09C;cursor:pointer;}
+
+
+.sc:link,.sc:visited{color:#40a8cf;}
+.sc:hover{color:#a00104;}
+.paymore{line-height:33px;float:right;}
+.pm{margin-top:12px;}
+.dahao{font-size:17px;}
+/*#9D0104*/
+.user_right_bottom{line-height:35px;height:35px;margin-top:14px;clear:both;}
+.user_right_bottom input{background:url(../images/pay_button.jpg) no-repeat;color:#fff;width:126px;height:35px;cursor:pointer;float:right;}
+.user_right_bottom p{float:left;margin-left:536px;clear:both;}
+
+.sj_div p{height:45px;}
+
+/*border:1px solid #0099CC;*/
+/*浮动层*/
+.bg{box-shadow:0 0 8px #cdcdcd;background:#fbffdc;position:absolute;left:27px;margin-left:162px;text-align:left;padding:3px 10px;font-size:14px;line-height:25px;z-index:1000;border:1px solid #fbffdc;border-left:0;*border:1px solid #e2ec94;}
+.fd_baoming{top:171px;}
+.fd_liulan{top:212px;}
+.fd_guankan{top:253px;}
+.fd_jianding{top:295px;}
+.fd_chushou{top:314px;width:644px;*top:312px;}
+.fd_jingpai{top:356px;width:672px;*top:354px;}
+.fd_tuangou{top:371px;text-align:left;width:666px;*top:369px;}
+.fd_paimai{top:463px;*top:461px;}
+.fd_paimai2{top:506px;*top:504px;}
+.fd_cpsp{top:521px;width:672px;*top:518px;}
+.fd_lz{top:589px;*top:586px;}
+
+/*箭头*/
+.zs_jt{position:absolute;top:171px;left:138px;z-index:999;display:none;}

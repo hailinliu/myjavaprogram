@@ -1,0 +1,108 @@
+
+/*footer style*/
+.footer_box{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index:1;
+}
+.foot_hb{
+	height:17px;
+	background:url(../images/foot_hb.jpg) repeat-x top center;
+	width:auto;
+	margin:0 auto;
+	padding:0;
+	margin-top:80px;
+}
+.fb_line{
+	background:url(../images/foot_hb.jpg) repeat-x top center;
+	height:100%;
+}
+.width_1140{
+	width:1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.foot_hb2{
+
+	margin-top:0px;
+}
+.footer{
+	width:100%;
+	margin:0 auto;
+	background:url(../images/foot_bg.jpg) repeat-y top center;
+	/*background: #f3f3f3;*/
+	/*overflow: hidden;*/
+}
+.fb_line2{
+	background:url(../images/foot_bg.jpg) repeat-y top center;
+	height:140px;
+}
+.footer_white{
+	background:#fff;
+}
+.foot_list{
+	width:720px;
+	_width:740px;
+	height:126px;
+	margin:0 auto;
+	display:block;
+	padding-top:13px;
+	overflow: hidden;
+}
+.foot_list li{
+	float:left;
+	overflow: hidden;
+}
+.foot_list li.foot{
+	padding:0 96px;
+	text-align:center;
+	margin-top: 10px;
+}
+.foot_list li.foot p{
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	display: block;
+	overflow: hidden;
+	width: 330px;
+}
+.foot_list2 li.foot p{
+
+	color:#000;
+
+}
+.foot_list li.xl p{
+	margin-top:8px;
+	text-align:left;
+}
+.foot_list li.none {
+	width:100px;
+}
+.foot_list li.none p{
+	width:100px;
+	*width:103px;
+	margin:8px 0 0 0;
+	text-align:left;
+}
+.foot_list li a{
+	color:#fff;
+	font-size: 12px;
+}
+.foot_list2 li a{
+	color:#000;
+	font-size: 12px;
+}
+.foot_list li a:hover{
+	color:#f3f3f3;
+	text-decoration:underline;
+}
+.foot_list2 li a:hover{
+	color:#999;
+	text-decoration:underline;
+}
+.foot p.banquan{
+	font-family:Arial, Helvetica, sans-serif;
+}

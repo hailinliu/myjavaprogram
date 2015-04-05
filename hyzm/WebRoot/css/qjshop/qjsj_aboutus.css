@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+
+
+/*简介标题*/
+.abouts_box{
+	overflow: hidden;
+	padding:  10px 15px;
+}
+.abouts_title{
+	width: 460px;
+	text-align: center;
+	overflow: hidden;
+}
+.abouts_title h3 {
+	font-size: 20px;
+	color: #000;
+	font-family: "微软雅黑";
+	font-weight: lighter;
+	padding-top: 30px;
+}
+
+.img_left {
+	float: right;
+	margin: 10px 5px 20px 30px;
+}
+
+.abouts_cont{
+	margin-top: 20px;
+
+}
+.abouts_cont p{
+
+	line-height:30px;
+	font-size: 16px;
+	color: #333;
+	text-indent:2em;
+}
+.abouts_cont a:link,.abouts_cont a:visited{
+	color: #3299da;
+}
+.abouts_cont a:hover{
+	text-decoration: underline;
+}

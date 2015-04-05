@@ -1,0 +1,481 @@
+@charset "utf-8";
+/* CSS Document */
+ *html{  
+             background-image:url(about:blank);  
+             background-attachment:fixed;  
+         }/*此代码解决IE6.0下不会出现闪动*/
+body{
+	margin:0;padding:0;font-size: 12px;font-family: "宋体";
+}
+ul,li,h1,h2,h3,h4,dl,dt,dd,input{
+	margin:0;padding:0;list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.gray_clor{
+	color: #808080;
+}
+.red_clor{
+	color:#f00;
+}
+ /*卖家中心--sell_cont*/
+ .sell_cont{
+ 	width: 1140px;
+ 	margin:0 auto;
+ 	overflow: hidden;
+ }
+ .sel_con_top{
+ 	height: 30px;
+ 	line-height: 30px;
+ 	margin-top: 20px;
+	background: #F0F0F0;
+	border-top: 2px solid #cc0000;
+	padding-right: 15px;
+ }
+ .sel_con_top ul li{
+	float: left;
+	width: 102px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+	cursor: pointer;
+ }
+ .sel_main{
+ 	margin-top: 12px;
+ 	overflow: hidden;
+ }
+.ws_se{
+	border-right: 2px solid #fff;
+
+ }
+
+  /*左边-标题*/
+ .sel_main_lf{
+ 	float: left;
+ 	width: 138px;
+ 	overflow: hidden;
+ 	padding-bottom: 15px;
+ 	border:1px solid #F0F0F0;
+ 	border-top:0;
+ 	border-radius: 4px;
+ 	background: #fff;
+ }
+ .sel_main_lf li{
+ 	text-align: center;
+ 	line-height: 32px;
+ }
+.sel_main_lf .sel_tits{
+ 	font-weight: 700;
+ 	font-size: 14px;
+ 	color: #A80000;
+ 	background: #F0F0F0;
+ 	border-top:2px solid #cc0000;
+ 	line-height: 28px;
+ }
+                            /*右部分*/
+ .sel_main_rt{
+ 	float: right;
+ 	width: 900px;
+ 	margin-top:40px;
+ }
+ .ym_cp_se{
+ 	height: 26px;
+ 	line-height: 26px;
+	border: 1px solid #F0F0F0;
+	background: #F9FAFC;
+	padding-left:20px;
+	margin-bottom: 20px;
+ }
+ .single-col{
+ 	width: 250px;
+ 	padding:10px 5px;
+ }
+ .single-col input{
+ 	height: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+	margin-left: 4px;
+	width: 145px;
+ }
+ .single-col input,.single-col select{
+ 	border:1px solid #7f9db9;
+ }
+ .single-col select{
+ 	height: 20px;
+	vertical-align: middle;
+	width: 140px;
+	margin-left: 4px;
+ }
+ .small_btn button{
+ 	width: 86px;
+ 	height: 24px;
+ 	background: #F18B00;
+ 	border-radius: 4px;
+ 	cursor: pointer;
+ 	margin-left: 70px;
+ 	color: #fff;
+ }
+ .item_search tr{
+	margin-top: 12px;
+ }
+  .item-list-tab{
+  	height:28px;
+  	line-height: 28px;
+  	background: #F6FAFF;
+  	border:1px solid #F0F0F0;
+  	padding-left: 140px;
+  	border-radius: 4px;
+  	margin-top: 15px;
+  }
+ .item-list-tab li{
+	float: left;
+	width: 92px;
+	text-align: center;
+ }
+ .order-hd td{
+ 	padding:5px 0;
+ }
+ .item-thead{
+ 	height: 32px;
+ 	line-height: 32px;
+ }
+ .dd_kz{
+ 	height: 28px;
+ 	line-height: 28px;
+ 	background: #F3F3F3;
+ 	border:1px solid #DEDEE0;
+ }
+ .order-details{
+ 	overflow: hidden;
+ 	border:1px solid #E6E6E6; 
+ 	position: relative;
+ }
+ .order-bt{
+ 	height: 26px;
+ 	line-height: 26px;
+ 	background: #F3F3F3;
+ 	border-bottom:1px solid #E6E6E6;
+ 	padding-left: 20px;
+ }
+ .order-sms{
+ 	overflow: hidden;
+ 	height: 120px;
+ }
+ .order-pic{
+ 	margin-right: 10px;
+ }
+ .order-pic{
+ 	width: 120px;
+ 	height: 120px;
+ }
+ .order-pic img{
+ 	width: 100px;
+ 	height: 100px;
+ 	margin:10px 0 0 10px;
+ }
+ .order-sna{
+ 	width: 168px;
+ }
+ .shop_nm{
+ 	height: 82px;
+ 	padding-top: 10px;
+ 	line-height: 24px;
+ }
+ .order-price{
+ 	width: 100px;
+ 	padding-top: 10px;
+ }
+ .order-tim{
+ 	margin-left: 20px;
+ }
+ .order-sbox{
+ 	width: 122px;
+ 	height: 110px;
+ 	border-right: 1px solid #EEEEEE;
+ 	padding-top: 10px;
+ 	text-align: center;
+ 	line-height: 24px;
+ }
+ .order-num{
+ 	width: 60px;
+ }
+ .chekboxs{
+ 	margin:0 10px 0 10px;
+ }
+ .item-thead span{
+ 	display: block;
+ 	float: left;
+ 	text-align: center;
+ }
+ .order-sm01{
+ 	width:302px;
+ }
+ .order-sm02{
+ 	width:120px;
+ }
+  .order-sm03{
+ 	width:122px;
+ }
+  .order-sm04{
+ 	width:124px;
+ }
+  .order-sm05{
+ 	width:123px;
+ }
+
+         /*交易信息-发货-第二步*/
+.flow-steps {
+	overflow: hidden;
+	margin: 20px 0;
+	width:1140px;
+}
+.flow-steps li.done {
+	color: #f60;
+}
+.flow-steps li {
+float: left;
+background: #e4e4e4 url(http://a.tbcdn.cn/sys/common/img/flow_steps_bg.png) no-repeat 100% 0;
+font-size: 14px;
+font-weight: bold;
+height: 23px;
+line-height: 23px;
+text-align: center;
+color: #404040;
+padding: 0 15px 0 0;
+overflow: hidden;
+}
+.flow-steps li .first {
+	background: #e4e4e4 url(http://a.tbcdn.cn/sys/common/img/flow_steps_bg.png) no-repeat -12px -69px;
+}
+.flow-steps .num5 li {
+	width: 175px;
+}
+.flow-steps li.done .first {
+background-color: #ffe6ba;
+background-position: -12px -115px;
+}
+
+.flow-steps li span, .flow-steps li strong {
+display: block;
+}
+.flow-steps li.done {
+background-color: #ffe6ba;
+background-position: 100% -46px;
+color: #f60;
+}
+.flow-steps li.two_current{
+	background-color: #f60;
+	color:#fff;
+}
+.flow-steps li.current-prev {
+background-position: 100% -23px!important;
+}
+.flow-steps li.last-current {
+background-color: #ffe6ba;
+color: #f60;
+background-position: 100% 33px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+}
+.crumbs{
+	margin: 20px 0;
+}
+
+.curent_order_details{
+	padding:20px;
+	border:1px solid #86BCFA;
+	overflow: hidden;
+}
+.curent_order_details h3{
+	font-size: 14px;
+	font-weight: 700;
+}
+.od_box_bt{
+	margin-top: 20px;
+}
+.od_box_bt input,.fahuo_btn input{
+	padding:4px 7px;
+	background: #E5E5E5;
+	border-radius: 4px;
+	cursor: pointer;
+	border:1px solid #939393;
+}
+.fahuo_btn .fh_btn{
+	background: #3385FF;
+	color: #fff;
+	border:0;
+	margin-bottom: 10px;
+}
+.od-tim{
+	overflow: hidden;
+}
+.od-tim li{
+	float: left;
+}
+.order-detail{
+	border:1px solid #AEC7E5;
+	padding:20px;
+	overflow: hidden;
+}
+.order-detail li{
+	height: 28px;
+	line-height: 28px;
+}
+.order-bt span{
+	display: block;
+	float: left;
+	text-align: center;
+}
+.mar01{
+	width: 410px;
+}
+.mar02{
+	width: 60px;
+}
+.mar03,.mar04{
+	width: 115px;
+}
+.order-ric{
+	border-bottom: 1px solid #DDDDDD;
+	height: 40px;
+	line-height: 40px;
+}
+                /*发货页面*/
+.flow-steps li.three_flow{
+	background: #f60;
+	color: #fff;
+}
+.ser_txt{
+	border:1px solid #BADCFE;
+	padding:20px;
+	margin-top: 20px;
+	overflow:hidden;
+	display:block;
+}
+.ser_txt input{
+	width: 400px;
+	height: 24px;
+	border-bottom:1px solid #ccc;
+}
+.OK_go_bt{
+	width: 120px;
+	height: 28px;
+	background: #F18A00;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 20px 0 0 20px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.fahuo_btn input{
+	margin:0 auto;
+	text-align: center;
+	display:block;
+}
+.fahuo_btn{
+	padding-top: 30px;
+}
+.fahuo_btn .ye_ok{
+	display: none;
+}
+.fanye_bbj{
+	margin:20px auto 0;
+	height:26px;
+	text-align: center;
+}
+.fanye_bbj a{
+	padding:4px 5px;
+	background: #fff;
+	border:1px solid #ccc;
+	margin-right: 8px;
+}
+.sel_main_rt h1,.listWrap h1{
+	height: 40px;
+	line-height: 40px;
+	background: #A80000;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.mm_tishi{
+	position:fixed;  /*支持实现w3c标准的浏览器*/
+   _position:absolute; /*单独针对IE6*/
+	width: 218px;
+	overflow: hidden;
+	background:#fff;
+	top:326px; /*距离顶部200px*/
+    right:140px;  /*距离右边200px*/
+    _top:expression(eval(document.documentElement.scrollTop+326));  /*+200是IE6.0下面距离浏览器窗口顶部的位置*/
+    /*IE6.0下面距离底部位置为0px*/
+    /*_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));*/
+}
+
+.mm_tishi h4{
+	height: 45px;
+	line-height: 52px;
+	background-color: #e8504f;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.mm_tishi h4 .close-btn{
+	display: block;
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	padding: 3px;
+	text-decoration: none;
+	background: url(../../images/baibaojie/kf_bg.png) no-repeat;
+	background-position: -74px -124px;
+	width: 12px;
+	height: 12px;
+}
+.mm_tishi h4 i{
+	position: absolute;
+	display: block;
+	top: 16px;
+	left: 16px;
+	width: 23px;
+	height: 18px;
+	background: url(../../images/baibaojie/kf_bg.png) no-repeat;
+	background-position: -93px -123px;
+}
+.shoper_rak{
+	background: #EAEAEA;
+	padding:6px 13px;
+	overflow: hidden;
+}
+.shoper_rak p{
+	line-height: 26px;
+	text-indent: 2em;
+}
+.about_mor_dd{
+	height: 30px;
+	line-height: 30px;
+	background-color: #e8504f;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 24px;
+}
+.about_mor_dd span{
+	margin-right: 20px;
+}
+ 
+
+
+

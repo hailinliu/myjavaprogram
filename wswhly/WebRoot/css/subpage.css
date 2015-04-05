@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*百通简介1*/
+.li-ziye{margin-left:40px;}
+.li-sub{margin-top:10px;}
+.li-sub1{margin-bottom:220px;}
+.li-text{float:left; margin-left:60px; width:650px; margin-top: 10px}
+.li-text h1{width:640px; text-align:center; margin-bottom:20px; font-weight:200; font-size: 30px}
+.li-text p{width:640px; font-size:14px; line-height: 40px; text-indent: 2em; margin-bottom: 10px; margin-left: 10px}
+
+/*百通简介2*/
+.li-text img{margin-left:120px; margin-top:30px; border:0;}
+.li-btn{background:url(../images/btn-bg.png); border:none; width:72px; height:25px; color:#FFF;}
+.li-yangshi{width:150px; height:23px; font-size:14px;}
+.li-biaodan{margin-top:10px;}
+
+
+/*加盟*/
+.li-part1 .li-jiameng{float:left; width:236px; height:375px; border:1px solid #E7E7E7; margin-right:10px; margin-top: 10px}
+.li-part1 .li-jiameng .li-part-head{width:235px; height:31px; background:url(../images/head01.png) repeat-x;}
+.li-jiameng ul{height:335px; background:#FFF;}
+.li-jiameng ul li{width:236px; height:55px; line-height:55px;}
+.li-jiameng ul li img{float:left; margin:18px 20px;}
+.li-jiameng ul li h1{font-size:16px;}
+.li-jiameng-head{background:url(../images/jiameng-head.png) repeat-x; width:650px; height:21px; margin:0 auto;  margin-bottom:5px; float:left;}
+
+.li-jm-biao{width:650px; border:2px dashed #FF8643; margin:0 auto; margin-bottom: 10px}
+.li-jm-txt{width:500px; font-size:14px; margin-top:10px; margin-left:30px;}
+.li-jm-txt p{width:250px; height:27px; float:left;}
+.ditu-{background:url(../images/tb-ditu.png) no-repeat; border:none; width:16px; height:20px;}
+
+.wbk{margin-right:20px; width:140px; height:20px; line-height:30px;}
+.wbk1{margin-right:20px; width:360px; height:20px; line-height:30px;}
+.wbk2{margin-right:20px; width:110px; height:20px;}
+.wbk3{width:360px; height:60px;}
+.li-btn-{width:600px; margin-left:20px; margin-top:20px;}
+.li-btn2{background:url(../images/btn-bg1.png); color:#FFF; font-size:14px; border:none; width:110px; height:32px; margin-right:20px;}
+.li-btn3{background:url(../images/btn-bg2.png); color:#FFF; font-size:14px; border:none; width:110px; height:32px; margin-right:20px;}
+
+
+
+/*加盟细则*/
+.li-text h1{ width:600px; height:30px; text-align:center;}
+.li-wuliu{width:750px; height:281px; background:url(../images/wuliu-bg.png) repeat-x; margin:0 auto; margin-top:10px; margin-bottom:10px; border:1px solid #E8E8E8; padding-left:20px; margin-bottom:200px;}
+.li-wuliu p{margin-top:50px; margin-bottom:20px; margin-left:80px;}
+.li-wuliu h2{font-size:16px; margin-bottom:10px;}
+.li-btn4{margin:0 auto; background:url(../images/wuliu-btn.png) no-repeat; width:110px; height:32px; border:none;}
+
+/*审核*/
+.li-weizhi{padding-left:100px; padding-top:50px; font-size:16px; font-weight:bold;}
+
+/*发卡*/
+.li-kuai{width:960px; height:495px; margin:0 auto;}
+.li-kuai-l{width:236px; height:495px; float:left;}
+.li-kuai .li-left{width:236px; margin-top:10px;}
+.li-kuai .li-left2{width:236px; height:208px; margin-top:10px;}
+.li-card{width:705px; height:384px; float:left;}
+.li-jiameng-head2{background:url(../images/jiameng-head.png) repeat-x; width:705px; height:21px; margin-left:10px; margin-top:10px; float:left;}
+.li-left{border:1px solid #E7E7E7;}
+.li-left2{border:1px solid #E7E7E7;}
+.li-card1{width:300px; height:120px; float:left; padding:30px;}
+.li-card1 img{float:left; margin-right:20px; margin-top:20px;}
+.li-card1 h2{font-size:14px;}
+.li-card1 p{width:220px; height:90px; text-indent:24px;}
+
+/*元素初始值*/
+html {background: #FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,ins,hr{margin: 0px;padding: 0px;}
+p{cursor: text;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ol,ul{list-style-type: none;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;}
+fieldset,img{border:0;}
+caption,th{text-align:left;}
+body{position: relative;/*font-size:62.5%;*/font-family: "宋体"}
+a{text-decoration: none;}
+#need {margin: 20px auto 0;width: 610px;}
+#need li {height: 26px;width: 600px;font: 12px/26px Arial, Helvetica, sans-serif;background: #FFD;border-bottom: 2px dashed #E0E0E0;display: block;cursor: text;padding: 7px 0px 7px 10px!important;padding: 5px 0px 5px 10px;}
+#need li:hover,#need li.hover {background: #F76F03;}
+#need label {padding-left: 30px;}
+#need label.old_password_zzjs {background-position: 0 -277px;}
+#need label.new_password_zzjs {background-position: 0 -1576px;}
+#need label.rePassword_zzjs {background-position: 0 -1638px;}
+#need label.email_zzjs {background-position: 0 -429px;}
+#need dfn {display: none;}
+#need li:hover dfn, #need li.hover dfn {display:inline;margin-left: 7px;color: #676767;}
+.xyStyle{line-height: 14px;background: #FFF;height: 14px;width: 80px;border: 1px solid #E0E0E0;vertical-align: middle;padding: 6px;}
+.inputStyle{line-height: 14px;background: #FFF;height: 14px;width: 200px;border: 1px solid #E0E0E0;vertical-align: middle;padding: 6px;}
+
+

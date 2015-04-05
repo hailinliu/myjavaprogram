@@ -1,0 +1,12 @@
+httpRequestUrl=http://localhost:8080/
+#httpRequestUrl=http://192.168.1.233:8080/
+swfuploadurl=http://116.255.149.172:7080/wswhly/swfupload/swfupload.swf
+uploadCollection=http://116.255.149.172:7080/wswhly/collection/uploadCollection
+uploadOffLine=http://116.255.149.172:7080/wswhly/business/uploadOffLine
+collectionurl=http://116.255.149.172:7080/wswhly/collection/
+proficienturl=http://116.255.149.172:7080/wswhly/proficient/
+videourl=http://116.255.149.172:7080/wswhly/video/
+#videourl=http://localhost:8080/wswhly/video/
+videoimg=http://116.255.149.172:7080/wswhly/video/image/
+
+

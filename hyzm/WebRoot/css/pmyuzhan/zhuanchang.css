@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #fff;
+}
+.foot_hb{
+	margin-top: 20px !important;
+}
+.b{font-weight: bold;}
+/*专场页面*/
+.zhuanchang_box{
+	width: 1140px;
+	margin:0 auto;
+}
+
+.zc_de_tit{
+	height: 38px;
+	width: 1100px;
+	background:url(../../images/pmyuzhan/zc_tit_bg.jpg) repeat-x;
+	border:1px solid #E6E6E6;
+	margin:20px 0;
+	line-height: 38px;
+	font-size: 14px;
+	padding:0 20px;
+}
+.zc_name{
+	font-size: 16px;
+}
+
+/*专场信息*/
+.zc_more{
+	width: 516px;
+}
+.zc_left{
+	border-right: 1px dotted #ccc;
+	width: 563px;
+	display: block;
+}
+.zc_img,.zc_img img{
+	height: 158px;
+	width: 148px;
+}
+.red{
+	color: red;
+}
+.zc_img img:hover{
+	-webkit-transform: scale(1.1) rotate(5deg);
+	-moz-transform: scale(1.1) rotate(5deg);
+	-o-transform: scale(1.1) rotate(5deg);
+	-ms-transform: scale(1.1) rotate(5deg);
+	transform: scale(1.1) rotate(5deg);
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+	-moz-opacity:0.8;
+}
+.zc_img{
+	overflow: hidden;
+	border:1px solid #F0F0F0;
+}
+.zc_one_de .zc_one_tit{
+	font-size: 16px;
+	line-height: 40px;
+}
+.zc_one{
+	width: 516px;
+	float: left;
+	margin-bottom: 25px;
+}
+.zc_one_de{
+	margin-left: 30px;
+	width: 335px;
+}
+.zc_one_de p{
+	line-height: 24px;
+}
+.ks_yl{
+	padding-left: 20px;
+	background: url(../../images/pmyuzhan/zc_yulan.jpg) no-repeat left center;
+}
+.zc_ye{
+	text-align: center;
+	height: 68px;
+	clear: both;
+	line-height: 68px;
+}
+.zc_ye a{
+	height: 3px;
+	padding:8px;
+	border:1px solid #CCC;
+}
+.zc_ye .page_on,.qj_ye a:hover{
+	background: #E40707;
+	color: #fff;
+}
+.huise{
+	color: #999999;
+}
+

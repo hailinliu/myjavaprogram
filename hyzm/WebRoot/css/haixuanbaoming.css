@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+*{padding:0; margin:0; border:0; outline:none; font-size:100%; font: inherit;}
+
+body{ font-family:"微软雅黑", Arial,"Trebuchet MS", Helvetica, sans-serif;font-size:12px; margin:0; padding:0; background:url(../images/main_bg2.jpg) repeat top center;}
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,img,form{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none; list-style-image: none; margin: 0; padding: 0; }
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+table,th,tr,td,input,select{font-size:12px;}
+input{font-family:Arial; padding:0; margin:0;}
+table,td{border-collapse:collapse; border-spacing: 0;}
+i{font-style:normal;}
+/*link样式*/
+
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+.fl{float:left;}
+.fr{float:right;}
+.fl,.fr{display:inline;}
+/*自适应高度*/
+.clear:after{height:0;content:'';display:block;clear:both;}
+.clear{zoom:1;}/*触发ie6,after属性*/
+/*公共样式*/
+
+/*报名流程说明*/
+.bmlc{width:1140px;height:293px;margin:10px auto 0;border:1px solid #ccc;border-radius:4px;background:#fff;box-shadow:0 2px 4px #ccc;}
+.bm_lc{font-size:24px;height:60px;line-height:60px;text-align:center;border-bottom:2px solid #ccc;}
+.lc_moc{height:180px;}
+.lc_moc a:link,.lc_moc a:visited{color:#fff;font-size:14px;}
+.lc_moc a:hover{text-decoration:underline;}
+.lc_moc p{height:30px;line-height:30px;padding:0 10px;background:#66bce9;border-radius:4px;font-size:14px;margin-bottom:28px;}
+.lc_moc span{color:#DD6F75;font-size:24px;margin:0 10px 10px;}
+
+.haixuan_content{width:1140px;margin:0 auto;}
+/*haixuan_ad*/
+.haixuan_ad{width:1140px;height:250px;margin:0 auto;box-shadow:0 2px 4px #ccc;}
+
+
+.zjjs{ width:1138px; height:600px; border:1px solid #ccc;border-top:2px solid #ccc;border-radius:4px;background:#fff;box-shadow:0 2px 4px #ccc;}
+.da_bt{font-size:24px; color:#000;text-align:center;margin:31px 0 15px;background:url(../images/haixuantit_bg.jpg) no-repeat;height:40px;line-height:40px;}
+.da_bt a:link,.da_bt a:visited{color:#fff;font-weight:bold;}
+.da_bt a:hover{text-decoration:underline;}
+.person_list{ width:1140px; height:310px;margin:0 auto;padding-top:20px;margin-bottom:20px;}
+.person_list li{float:left; width:156px; height:310px; margin-left:60px;}
+.person_list li img{box-shadow:0 2px 4px #ccc;}
+.person_list li img:hover{transform:rotate(9deg);
+						-ms-transform:rotate(9deg); /* Internet Explorer */
+						-moz-transform:rotate(9deg); /* Firefox */
+						-webkit-transform:rotate(9deg); /* Safari 和 Chrome */
+						-o-transform:rotate(9deg); /* Opera */
+						}
+.person_list li a:link,.person_list li a:visited{color:#000;font-size:14px;}
+.person_list li a:hover{text-decoration:underline;}
+
+.person_list li p{clear:both; color:#930d0d; font-family:"微软雅黑"; font-size:20px; font-weight:800;text-align:center; margin-top:15px;margin-bottom:15px;}
+.zjjs li .p2{ font-size:14px;}
+.zjjs img.tu1{width:156px; height:192px; margin:0px;}
+.zjjs img.tu2{width:3px; height:224px; float:right;}
+.lou_zuo{ float:left;}
+
+/*线路指引*/
+.road_sm{height:250px;padding:0 62px;}
+.road_sm ul{width:270px;height:260px;float:left;padding:0 20px;border:1px solid #ccc;border-radius:4px;background:#fff;box-shadow:0 2px 4px #ccc;}
+.road_sm ul li{font-size:14px;}
+.road_sm .road_tit{font-size:20px;border-bottom:1px solid #ccc;margin-top:10px;}
+.road_ul{margin-right:40px;}
+.road_con{line-height:25px;margin-top:10px;}
+
+/*住宿指引*/
+.pp{font-family:"微软雅黑"; font-size:18px; color:#000; position:relative; width:814px; top:150px; left:60px;}
+.pp1{ color:#990000; font-weight:700;}
+.ditu{ width:1140px;height:364px;border:#ccc solid 1px;border-radius:4px;box-shadow:0 2px 4px #ccc;}
+
+.xlzy{font-size:24px;text-align:center;margin:31px 0 15px;background:url(../images/haixuantit_bg.jpg) no-repeat;height:40px;line-height:40px;color:#fff;font-weight:bold;}
+.botton_11{background: #a80000;color: #fff;padding: 8px 12px;border-radius: 5px;margin-left: 45px;cursor: pointer;}
+
+
+
+
+
+

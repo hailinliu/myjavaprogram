@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="hyzm"
+  id="myeclipse.1401849038359"
+  context-root="/hyzm"
+  j2ee-spec="5.0"
+  archive="hyzm.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

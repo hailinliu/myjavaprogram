@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+.huise{
+	color: #666666;
+}
+a:link,a:visited{
+	font-family: "微软雅黑",arial;
+}
+
+/*拍卖资讯*/
+
+/*zixun_box_left*/
+.zixun_box_left{
+	width: 760px;
+	float: left;
+}
+.zixun_bread{
+	height: 35px;
+	border-bottom: 1px solid #DCDCDC;
+	background:url(../../images/zixun/home.jpg) no-repeat left center ;
+	line-height: 38px;
+	font-size: 14px;
+	padding-left: 35px;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+.pm_zixun_list{
+	width: 760px;
+}
+.pm_zixun_list li{
+	border-bottom:1px solid #DCDCDC;
+	height: 132px;
+	padding-top: 20px;
+	width: 760px;
+}
+.pm_zixun_list li img,.zixun_img{
+	height: 112px;
+	width: 150px;
+}
+.zixun_news_in{
+	width: 590px;
+}
+.zixun_tit{
+	font-size: 16px;
+	font-weight: bold;
+}
+.zixun_tit a:hover{
+	text-decoration: underline;
+}
+.zixun_small{
+	line-height: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #686868;
+	text-indent: 2em;
+}
+.read_more a:link,.read_more a:visited{
+	color: #c91818;
+}
+.read_more a:hover{
+	text-decoration: underline;
+}
+.read_more{
+	margin-left: 12px;
+}
+/*图片特效*/
+.pm_zixun_list li img,.new_news_box img{
+	webkit-transition: -webkit-transform .2s linear;
+	-moz-transition: -moz-transform .2s linear;
+	-o-transition: -o-transform .2s linear;
+	transition:transform .2s linear;
+}
+.pm_zixun_list li img:hover,.new_news_box img:hover{
+	-webkit-transform: translateX(-5px);
+	-moz-transform: translateX(-5px);
+	-ms-transform: translateX(-5px);
+	-o-transform: translateX(-5px);
+	transform:translateX(-5px);
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	opacity:0.8;
+}
+.fanye{
+	height: 68px;
+	clear: both;
+	line-height: 68px;
+}
+.fanye a{
+	height: 3px;
+	padding: 8px;
+	border: 1px solid #CCC;
+}
+.current_ye{
+	background: #C10506;
+	color: #fff;
+}
+.current_ye:hover{
+	color: #fff;
+}
+
+
+
+
+/*zixun_box_right*/
+.zixun_box_right{
+	width: 360px;
+	float: right;
+}
+.zixun_right_box{
+	height: 44px;
+	line-height: 44px;
+}
+.more{
+	display: block;
+	background:url(../../images/zixun/more.jpg) no-repeat left center ;
+	padding-left: 25px;
+}
+.zixun_right_tit{
+	font-size: 20px;
+	font-weight: bold;
+}
+/*右侧焦点图*/
+.zixun_right_adbox{
+	height: 271px;
+	width: 360px;
+	background: #ccc;
+	margin-top: 10px;
+}
+.new_news_box{
+	overflow: hidden;
+}
+.new_news{
+	width: 170px;
+	float: left;
+	text-align: center;
+}
+.new_news p{
+	line-height: 22px;
+	margin-top: 10px;
+}
+.new_news img{
+	width: 170px;
+	height: 128px;
+	background: #ccc;
+}
+.new_news_list{
+	width: 360px;
+	margin-top: 20px;
+}
+.new_news_list li{
+	line-height: 26px;
+	padding-left: 23px;
+	background:url(../../images/zixun/new_news_lit_bit.jpg) no-repeat left center ;
+}
+
+.zhuanti_box img{
+	height: 157px;
+	background: #ccc;
+	width: 360px;
+}
+
+/*拍卖资讯详情页*/
+.zixun_title_box{
+	text-align: center;
+	border-bottom: 1px dotted #C6C6C6;
+	padding-bottom: 10px;
+}
+.zixun_title_boxin{
+	color: #A0A0A0;
+}
+.zixun_title_box h3{
+	font-size: 24px;
+	color: #000;
+	font-family: "微软雅黑";
+	line-height: 67px;
+}
+.zixun_content{
+	padding-top: 20px;
+}
+.zixun_content p{
+	text-indent: 2em;
+	font-size: 13px;
+	line-height: 30px;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+.zixun_content img{
+	margin: 0 auto;
+	display: block;
+}
+.fenxiang{
+	height: 24px;
+	margin-top: 20px;
+	line-height: 24px;
+}
+.fenxiang span{
+	display: block;
+	float: right;
+	margin-left: 5px;
+}
+
+                                      /*新闻首页*/
+#ppt{
+	color: #fff;
+}
+#ppt a:link,#ppt a:visited{
+	color: #fff;
+}
+#ppt a:hover{
+	text-decoration: underline;
+}
+.fcnt{display:block;height:342px;width:756px;margin:20px auto;border:2px solid #222;position:relative;overflow:hidden;}
+.fcnt .mimg{float:left;width:602px;height:340px;overflow:hidden;border:1px solid #470304;}
+.fcnt .mimg div{display:none;}
+.mimg img{width:610px;height:340px;}
+.fcnt ul{float:right;width:151px;height:340px;}
+*html .fcnt ul{position:absolute;right:0;top:0;width:152px;height:340px;}
+.fcnt li{display:block;height:82px;width:150px;margin-bottom:5px;cursor:pointer;overflow:hidden;}
+.fcnt li img{width:150px;height:82px;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.fcnt li.cur img{width:142px;height:75px;margin:4px 0 0 4px;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+#tri{position:absolute;top:0;right:2px;z-index:1000;width:155px;height:82px;background:url(../../images/zixun/point.png) no-repeat;cursor:pointer;}
+*html #tri{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../../images/zixun/point.png");background:none;}
+.fcnt dl{position:absolute;bottom:1px;left:0px;width:611px;height:80px;background:url(../../images/zixun/shadow.png) no-repeat;display:none;}
+.fcnt dt{line-height:38px;text-align:center;font-size:22px;font-family:"黑体";font-weight:900;}
+.fcnt dd{line-height:24px;text-align:center;font-size:14px;}
+*html .fcnt dl{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../../images/zixun/shadow.png");background:none;}                                      
+.zixun_adbox{
+	height: 400px;
+	width: 760px;
+	background: #ccc;
+	margin:20px 0;
+}
+/*tab选项卡*/
+#tab{position:relative;height: 427px;}
+.tabList{
+	height: 34px;
+	width: 760px;
+	border-bottom: 1px solid #ccc;
+}
+#tab .tabList ul li{
+	float:left;
+	background:#fefefe;
+	border:1px solid #ccc;
+	width:90px;
+	height: 33px;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+	font-size: 14px;
+	line-height: 35px;
+	margin-right: 5px;
+}
+
+
+#tab .tabList li.cur{
+	border-bottom:none;
+	background:#fff;
+	height: 34px;
+}
+.tab{
+	height: 180px;
+	width: 360px;
+	float: left;
+
+}
+.tab_tit{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 52px;
+}
+.tab_in_cont{
+	height: 128px;
+}
+.zi_xun_imgs,.zi_xun_imgs img{
+	height: 128px;
+	width: 170px;
+}
+.zi_xun_s{
+	width: 180px;
+	height: 128px;
+	line-height: 21px;
+	text-indent: 2em;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+	color: #656565;
+}
+.tab2,.tab4{
+	margin-left: 34px;
+}
+.date_div{
+	height: 115px;
+	width: 760px;
+	background: #ccc;
+	border-top: 3px solid #E20004;
+}
+   /*焦点新闻*/
+.jd_tit{
+	font-weight: bold;
+	font-size: 20px;
+	height: 55px;
+	line-height: 55px;
+	background: url(../../images/zixun/jd_bg.jpg) no-repeat left center;
+	padding-left: 40px;
+}
+.jd_news li{
+	height: 108px;
+	border-bottom: 1px dotted #BABABA;
+}
+.jd_tits{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.jd_tit_in{
+	line-height: 25px;
+}
+.zixun_index_video,.zixun_index_video img{
+	height: 215px;
+	width: 360px;
+}
+.zixun_index_videos{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.zixun_index_videos p{
+	padding-left: 22px;
+	height: 35px;
+	line-height: 35px;
+	background: url(../../images/zixun/video_bg.jpg) no-repeat left center;
+}
+
+/* flexslider */
+.flexslider{position:relative;width:360px;height:271px;overflow:hidden;zoom:1;}
+.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.flexslider .slides{zoom:1;}
+.slides li img{
+	width: 360px;
+	height: 271px;
+}
+.flex-direction-nav a{width:60px;height:90px;line-height:99em;overflow:hidden;margin:-60px 0 0;display:block;background:url(../../images/zixun/ad_ctr.png) no-repeat;position:absolute;top:55%;z-index:10;cursor:pointer;opacity:0;filter:alpha(opacity=0);-webkit-transition:all .3s ease;}
+.flex-direction-nav .flex-next{background-position:0 -90px;right:0;}
+.flex-direction-nav .flex-prev{left:0;}
+.flexslider:hover .flex-next{opacity:0.8;filter:alpha(opacity=25);}
+.flexslider:hover .flex-prev{opacity:0.8;filter:alpha(opacity=25);}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{opacity:1;filter:alpha(opacity=50);}
+.flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center;}
+.flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
+.flex-control-paging li a{background:url(../../images/zixun/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background-position:0 0;}

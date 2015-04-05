@@ -1,0 +1,56 @@
+.listWrap{ width:918px; border:1px solid #ccc; margin:40px auto}
+/*交易流程*/
+#mallMainT .process{ height:31px; line-height:31px; color:#303030; margin:24px auto}
+#mallMainT .process ul{ height:31px; margin-left:12px}
+#mallMainT .process ul li{ width:254px; height:31px; line-height:31px; background:url(../../images/baibaojie/mallCartBg.png) no-repeat -70px -110px; text-align: center; color:#fff}
+#mallMainT .process ul li.step-1{ top:0; left:0;z-index:10;background-position:-70px -145px;  border-radius:0px 3px 3px 0}
+#mallMainT .process ul li.step-2{ top:0; left:235px; z-index:9;background-position:-70px -145px}
+#mallMainT .process ul li.step-3{ top:0; left:470px; z-index:8; background:#929292; border-radius:0px 3px 3px 0}
+/*成功提示*/
+.successM{ width:280px; height:40px; line-height:40px; font-size:20px; text-indent:46px; background:url(../../images/baibaojie/successIcon.png) no-repeat 0 0; margin:20px auto 40px auto; color:#000}
+/*订单详情*/
+#mallMainC{ width:896px; margin-left:12px}
+#mallMainC .orderD{ background:#f6f6f6; overflow:hidden;border-bottom:2px solid #cecece; z-index:6}
+#mallMainC .orderD h3{ width:896px; height:58px; line-height:58px; background:#f6f6f6; overflow:hidden;border-bottom: 1px solid #cecece;}
+#mallMainC .orderD h3 span{ margin:0 20px; color:#303030}
+#mallMainC .orderD h3 span strong{ color:#4aa4be}
+#mallMainC .orderD h3 span b{color: #e65d6f;margin:0 5px; font-size:20px}
+#mallMainC .orderD h3 span i{ font-style:normal;color:#4aa4be; margin:0 5px;font-size:20px}
+#slide{ background:#999; height:30px; line-height:28px; color:#fff; width:94px;  border-radius:0 0 3px 3px; text-decoration:none; z-index:6}
+#slide b{ margin-left:6px}
+#mallMainC .orderD .orderDl{ width:700px;margin: 20px 0 20px 80px;background:#f6f6f6; color:#3b3b3b; border-bottom:2px solid #f0eade; border-radius:4px; display:none;border-top: 1px solid #fff;}
+#mallMainC .orderD .orderDl dt{ height:32px; line-height:34px; }
+#mallMainC .orderD .orderDl dt span{ margin-left:12px}
+#mallMainC .orderD .orderDl dd table tr{ line-height:26px; height:26px; border-top:1px dashed #f0eade; color:#999}
+/*支付接口*/
+#mallMainC .zhifu{ width:896px; height:400px; border:1px solid #cecece;background:#fff; margin:60px auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

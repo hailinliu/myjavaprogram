@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+*{padding:0; margin:0; border:0; outline:none; font-size:100%; font: inherit;}
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {font-size: 100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; word-wrap: break-word;}
+body{ font-family:"宋体", Arial,"Trebuchet MS", Helvetica, sans-serif;font-size:12px; margin:0; padding:0; background:url(../images/main_bg2.jpg) repeat top center;
+/*-webkit-backface-visibility: hidden;
+background: #F5F5F5;*/ }
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,img,form{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+b,strong{font-weight: bold;}
+ul,ol,li{list-style:none; list-style-image: none; margin: 0; padding: 0; }
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+table,th,tr,td,input,select{font-size:12px;}
+input{font-family:Arial; padding:0; margin:0;}
+table,td{border-collapse:collapse; border-spacing: 0;}
+i{font-style:normal;}
+/*link样式*/
+a{outline:none;font-family:Arial;text-decoration:none; color:#333; cursor:pointer;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:none; cursor:pointer; color:#c91818;}
+a:active {star:expression(this.onFocus=this.blur());}
+.fl{float:left;}
+.fr{float:right;}
+.fl,.fr{display:inline;}
+/*自适应高度*/
+.clear:after{height:0;content:'';display:block;clear:both;}
+.clear{zoom:1;}/*触发ie6,after属性*/
+/*公共样式*/
+/* 字体样式*/
+.bold1{
+	font-weight: bold;
+}
+
+.newred{
+
+	color: #C91818;
+
+}
+.block111{
+	display: block;
+}
+.none111{
+	display: none;
+}
+.clear111{
+	overflow:hidden;
+	clear:both;
+}
+.box_100{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.main_box{
+	width:1140px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+/*end  nav*/
+
+
+.c-fl{float:left;}
+.c-fr{float:right;}
+.ma6{margin:2px 0 2px;}
+.ma3{float:left;}
+.ma2{float:left;}
+.ma4{float:right;color:#F00;font-size:12px;margin-right:36px;}
+
+.ma7{width:85px;float:left;height:21px;}
+.ma5{height:20px;width:187px;clear:both;margin-bottom:10px;}
+.ma5 img{height:24px;float:right;}
+
+/*找回密码*/
+.forgebox{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999; scrollbar:hidden;}
+* html .forgebox { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_pass{ width:600px; height:443px; border:1px solid #d6d1cb; background:#fff; margin:0 auto; margin-top:10%; position:relative;}
+.find_bt{ background:url(../images/password_bt.jpg) top center no-repeat; width:596px; height:37px; margin:2px 0 0 2px; line-height:37px; text-align:center;}
+.hb_bottom{ width:596px; height:26px; position:absolute; bottom:2px; margin-left:2px;}
+.hb_bottom p.hb_left{ width:28px; height:24px; padding:0 0 2px 0;}
+.hb_bottom p.hb_right{width:28px; height:25px; }
+.bt_wz{ font-family:"微软雅黑"; font-size:24px; color:#fff;}
+.find_bt span.off{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off a{ color:#fff;}
+.find_bt span.off a:hover{ text-decoration:underline;}
+.list2_box{ padding:30px 0 0 150px; width:679px;  height:33px;}
+.list2_box li{ float:left; height:33px; line-height:33px;  margin-bottom:30px; color:#a00104; margin-right:8px;}
+.list2_box li.mc{ width:100px; text-align:right; margin-right:10px;font-size:14px;font-weight:bold;}
+.list2_box li input{ width:216px; height:29px; line-height:29px; padding:2px; border:1px solid #6c6c6c; margin-right:0;}
+.list2_box li a{ font-size:12px; font-weight:lighter; margin-left:2px; color:#025293;}
+.list2_box li a:hover{ text-decoration:underline; color:#a00104;}
+.button_list{display:block; margin:0; padding:0;height:35px; margin:5px 0 0 260px; *margin-top:10px; width:200px; *width:220px;}
+.button_list li{  float:left; height:35px; margin-right:5px;}
+.over_wz{ line-height:22px;margin:26px 0 0 0; padding-left:260px; *margin-top:8px; color:#a00104;}
+.over_wz2{ line-height:22px;margin:5px 0 0 0; padding-left:260px; color:#a00104;}
+.tjan{ width:829px;  height:42px; margin:10px 0 0 0;text-align:center;}
+.tjan input{ width:175px; height:42px; background:url(../images/submit_button_03.jpg) top center no-repeat; cursor:pointer; border:0 none; outline:none;float:left; margin-left:300px;}
+
+/*修改手机*/
+.forgebox2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position:absolute; display:none; z-index:0;}
+.find_bt span.off2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off2 a{ color:#fff;}
+.find_bt span.off2 a:hover{ text-decoration:underline;}
+.find_list2{ width:725px;padding:30px 20px 34px; border-bottom:1px dotted #b1b0b0; margin:0 30px;}
+.find_list2 ul{ height:31px; margin-bottom:6px;}
+.find_list2 ul li{ float:left; height:31px; line-height:31px; margin-right:15px; *margin-right:5px;}
+.find_list2 ul li input{ width:214px; height:23px; line-height:23px; padding:3px; border:1px solid #6c6c6c;}
+.find_list2 ul li.mc_bt{ font-size:14px; font-weight:bold; color:#9d0104;}
+.find_list2 ul li.mc_bt2{font-size:14px; font-weight:bold; color:#666;}
+.find_list2 p{ margin-bottom:12px; margin-left:80px; color:#a00104;}
+.find_list2 ul li span{ color:#666;}
+.find_list2 ul li span.red{ color:#a00104;}
+.find_list{ width:725px;padding:30px 20px 0;  margin:0 30px;}
+.find_list ul{ height:31px; margin-bottom:6px;}
+.find_list ul li{ float:left; height:31px; line-height:31px; margin-right:15px; *margin-right:5px;}
+.find_list ul li input{ width:214px; height:23px; line-height:23px; padding:3px; border:1px solid #6c6c6c;}
+.find_list ul li.mc_bt{ font-size:14px; font-weight:bold; color:#9d0104;}
+.find_list ul li.mc_bt2{font-size:14px; font-weight:bold; color:#666;}
+.find_list p{ margin-bottom:12px; margin-left:80px; color:#a00104;}
+.find_list ul li span{ color:#666;}
+.find_list ul li span.red{ color:#a00104;}
+
+/*修改邮箱*/
+.forgebox1_1{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox1_1 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off1_1{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off1_1 a{ color:#fff;}
+.find_bt span.off1_1 a:hover{ text-decoration:underline;}
+
+.forgebox1_2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox1_2 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off1_2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off1_2 a{ color:#fff;}
+.find_bt span.off1_2 a:hover{ text-decoration:underline;}
+
+/*修改姓名*/
+.forgebox3_1{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox3_1 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off3_1{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off3_1 a{ color:#fff;}
+.find_bt span.off3_1 a:hover{ text-decoration:underline;}
+
+.forgebox3_2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox3_2 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off3_2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off3_2 a{ color:#fff;}
+.find_bt span.off3_2 a:hover{ text-decoration:underline;}
+
+/*修改身份证号*/
+.forgebox4_1{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox4_1 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off4_1{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off4_1 a{ color:#fff;}
+.find_bt span.off4_1 a:hover{ text-decoration:underline;}
+
+.forgebox4_2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox4_2 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off4_2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off4_2 a{ color:#fff;}
+.find_bt span.off4_2 a:hover{ text-decoration:underline;}
+
+/*修改职业*/
+.forgebox5_1{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox5_1 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off5_1{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off5_1 a{ color:#fff;}
+.find_bt span.off5_1 a:hover{ text-decoration:underline;}
+
+.forgebox5_2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox5_2 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off5_2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off5_2 a{ color:#fff;}
+.find_bt span.off5_2 a:hover{ text-decoration:underline;}
+
+/*修改住址*/
+.forgebox6_1{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox6_1 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off6_1{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off6_1 a{ color:#fff;}
+.find_bt span.off6_1 a:hover{ text-decoration:underline;}
+
+.forgebox6_2{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox6_2 { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off6_2{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off6_2 a{ color:#fff;}
+.find_bt span.off6_2 a:hover{ text-decoration:underline;}
+
+/*修改成功*/
+.forgebox_success{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox_success { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off_success{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off_success a{ color:#fff;}
+.find_bt span.off_success a:hover{ text-decoration:underline;}
+
+/*修改成功*/
+.forgebox_enroll{width:100%; height:100%; _height:1000px; background: rgba(0,0,0,0.8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #90000000,endColorstr = #90000000); top:0; left:0; position: fixed; display:none; z-index:999;}
+* html .forgebox_enroll { /* ie6 hack */position: absolute;height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+.find_bt span.off_enroll{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off_enroll a{ color:#fff;}
+.find_bt span.off_enroll a:hover{ text-decoration:underline;}
+
+/*弹出 遮蔽层 全站通用*/
+.forgebox_guowai,.pop_upbox{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	_height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+	top:0;
+	left:0;
+	position: fixed;
+	/* ie6 hack */
+	_position: absolute;
+	display: none;
+	z-index:20000;
+	background:transparent;
+	zoom: 1;
+	background-color: rgba(61, 67, 76, 0.7);
+	background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6));
+	background-image: radial,,rgba(0,0,0,0) 10%,rgba(0,0,0,0.6);
+	/*IE */
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#4c000000', endColorstr='#4c000000');  /*IE滤镜*/
+	background:transparent\9\ 0;   /*“\9\0″ 只对IE9/IE10生效，是IE9/10的hack */
+}
+.pop_upbox{
+	display: block;
+	visibility:hidden;
+	opacity: 0;
+	/*css3 过渡效果*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.mod_show{
+	opacity: 1;
+	visibility: visible;
+
+}
+/*:root .forgebox_guowai{
+	filter:none;
+} *//*IE9 单独去除 filter*/
+
+.pop_upbox .pop_bgs{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	background:transparent;
+	/*background: #000;
+	opacity: 0.35;
+	filter:alpha(opacity=35);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=35);*//*IE*/
+}
+.find_bt span.off_guowai{ font-size:14px; font-weight:bold; position:absolute; right:28px;}
+.find_bt span.off_guowai a{ color:#fff;}
+.find_bt span.off_guowai a:hover{ text-decoration:underline;}
+
+/*common.css-公共组件库-默认都为大写*/
+/*布局*/
+.DB{display:block}
+.FL{float:left;display:inline}
+.FR{float:right;display:inline}
+.PA{position:absolute}
+.PR{position:relative}
+.W1000{width:1140px;overflow:hidden;margin:0 auto}
+/*文字排版*/
+.BGC{background-color:#f0eade}
+.BLUE{color:#95c111}
+.WHITE{color:#fff}
+.BLACK{color:#000}
+.TDN{text-decoration:none}
+.F12{font-size:12px}
+.F14{font-size:14px}
+.F16{font-size:16px}
+.POINTER{cursor:pointer}
+.TI{text-indent:-9999px}
+.FWN{font-weight:normal}
+.TAC{text-align:center}
+.TCL{text-align:left}
+.FFS{font-family:"\5b8b\4f53"}
+.FFY{font-family:Microsoft YaHei}
+
+.red_btns{
+	background:#ba0000;
+  color: #fff;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+
+}
+.red_btns:hover{
+	color: #fff;
+	background:#000;
+}
+
+
+
+

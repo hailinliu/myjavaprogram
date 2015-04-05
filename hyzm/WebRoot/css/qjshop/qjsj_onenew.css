@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+/*商家新闻页*/
+.sjnew_box{
+	overflow: hidden;
+}
+.sjnew_box .title_box{
+	width:810px;
+	margin-bottom:6px;
+	text-align:center;
+	padding-bottom: 20px;
+}
+.sjnew_box .title_box h3{
+	font-size:24px;
+	color:#000;
+	font-family:"微软雅黑";
+	font-weight:lighter;
+	padding-top:30px;
+}
+.title_list{
+	padding-left:200px;
+	height:20px;
+	margin-top:26px;
+}
+.title_list li{
+	float:left;
+	background:url(../../images/icon_pic.jpg) left center no-repeat;
+	padding-left:12px;
+	margin-right:22px;
+	height:20px;
+	line-height:20px;
+}
+.sjnew_cont{
+	margin-top: 20px;
+
+}
+.sjnew_box img{
+
+	display:block;
+	margin: 0 auto;
+}
+.sjnew_box p{
+
+	line-height:30px;
+	font-size: 16px;
+	color: #333;
+	text-indent:2em;
+	margin: 10px 0;
+}
+/*分享*/
+.sjnew_share{
+	margin: 0px 0px 30px;
+	overflow: hidden;
+	width: 810px;
+}
+.sjnew_numx{
+	margin-top: 20px;
+}
+
+/*视频页面*/
+
+.video_jxs{
+	border-top: 1px dotted #CCC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.video_jxs span,.video_qts span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.video_qts{
+	border-top: 1px dotted #CCC;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.video_qts h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+/*商家视频*/
+
+.video_tit_box,.video_tit{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	width: 389px;
+	font-size: 14px;
+}
+.video_tit_box,.video_tit_box2{
+	background-color: #EAEAEA;
+	opacity: 0.5;
+	filter:Alpha(opacity=50);
+}
+.video_icon{
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+}
+.qj_videos{
+
+	zoom: 1;
+}
+.qj_video_top{
+	background:url(../../images/flagship/qj_video_top_bg.jpg) center top no-repeat;
+	height: 4px;
+	width: 195px;
+}
+.qj_videos li{
+	width: 195px;
+	height: 166px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 8px;
+	_margin-left: 5px;
+}
+.video_tit2,.video_tit_box2{
+	height: 30px;
+	width: 195px;
+	line-height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.lit_video{
+	background: #B8B8B8;
+	height: 162px;
+	width: 195px;
+	overflow: hidden;
+}
+.video_icon2{
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+.qj_videos .no_margin_lf{
+	margin-left: 0;
+}

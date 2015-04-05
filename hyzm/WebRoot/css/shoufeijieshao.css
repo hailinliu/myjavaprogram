@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;font-size:12px;font-family:"宋体";}
+p,h1,h2,ul,li,input{margin:0;padding:0;border:0;list-style:none;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1{font-size:24px;font-weight:bold;color:#A20004;margin-bottom:20px;}
+.biaoti{color:#A20004;font-weight:bold;}
+
+/*国内拍卖介绍页面*/
+
+/*top*/
+.t_top{ width:auto; height:177px; background:url(../images/head_bg_01.jpg) no-repeat top center;position:relative;}
+.top{ width:100%; height:34px; background: url(../images/top_bg2.jpg) top repeat-x;overflow:hidden;}
+.top_box{ width:1140px; height:34px; margin:0 auto;line-height:34px;position:relative;}
+.top_list{ width:300px; height:34px; margin:0; padding:0; float:right;}
+.top_list li{ float:left; color:#f7f7f7; }
+.top_list li.line{ margin:0 5px; *margin:0 1px;}
+.top_list li a{color:#f7f7f7;}
+.top_list li a:hover{ color:#F63; text-decoration:underline;}
+.top_list li.login a:hover{ color:#a00104; background:#fff; text-decoration:none; border:1px solid #b4b4b4; border-bottom:0 none; padding:2px 9px 10px; *padding:5px 8px 9px; padding-bottom:11px\9;}
+.top_wz{ display:block; width:240px; height:34px; line-height:34px; margin:0; padding:0; color:#f7f7f7; float:left;}
+.top_bottom{ width:100%; height:18px; background:url(../images/top_bottom.png) top center repeat-x; _margin-top:-2px;}
+.QQzixun{margin-top:6px;}
+
+/*浮出菜单控制*/
+
+.c-fl{float:left;}
+.c-fr{float:right;}
+.ma6{margin:2px 0 2px;}
+.ma3{float:left;}
+.ma2{float:left;}
+.ma4{float:right;color:#F00;font-size:12px;margin-right:36px;}
+.ntes-loginframe-btn{background:#770B01;border:1px solid #239438;color:#FFF;cursor:pointer;font-size:14px;font-weight:bold;height:30px;width:189px;}
+.ntes-loginframe-blank{padding-left:35px;padding-bottom:4px;}
+.ntes-loginframe-tips{color:#888;line-height:25px;}
+.tips-error input{background:#FEE; border:1px solid #FFB5B5;}
+.ntes-loginframe-label-ipt{float:left;width:187px;height:28px;line-height:28px;text-indent:6px;border:1px solid #ddd;color:#666;}
+.ma7{width:85px;float:left;height:21px;}
+.ma5{height:20px;width:187px;clear:both;margin-bottom:10px;}
+.ma5 img{height:24px;float:right;}
+
+
+/*content*/
+.content{width:900px;margin:0 auto;padding:50px 50px; box-shadow:0 0 6px #666;}
+.shouye{float:left;}
+h1{text-align:center;}
+.content p{line-height:33px;font-size:14px;}
+.red1{color:#ff0000;}
+.nav_baoming{width:126px;height:35px;margin:20px auto 0;}
+.baoming{cursor:pointer;background:#9D0104;color:#fff;font-size:14px;width:126px;height:35px;}
+
+.content a:link,.content a:visited{color:#0000EE;}
+.content a:hover{text-decoration:underline;}
+
+
+
+/*国内团购页面*/
+.content .place{text-align:center;width:214px;height:32px;margin:26px auto 0;line-height:21px;}
+.place span{float:left;}
+.place select{float:right;border:1px solid #ccc;height:22px; line-height:18px; padding:2px 0;}
+
+#tuangou_hd{background:url(../images/tuangou_ad.jpg) no-repeat center top;}
+
+/*弹出充值框*/
+.guowai_cz{width:540px;background:#f2fafe;margin:0 auto;text-align:center;margin:30px auto;}
+.content .guowai_cz p{line-height:37px;}
+.tjcz{margin:20px 0;}
+.jiantou{height:42px;background:url(../images/jiantou.gif) no-repeat;width:130px;margin:20px auto 10px;}
+
+/*国外活动*/
+#main_nav{width:100%;background:url(../images/guowai_hd.jpg) top center;margin-top:10px;}
+.nav_baoming p{float:right;}
+.guowai_bm{width:222px;}
+
+/*国内活动*/
+#guonei_ad{background:url(../images/guonei_ad.jpg) no-repeat center top;}
+.guonei_hd{background:url(../images/guonei_content.jpg);padding-top:77px;}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap,#header{ width:100%;}
+#wrap{background:url(../../images/zt0910_img/zt_bg.png) #fff repeat-x top; }
+.header{ width:1351px; position:relative; }
+.header,.Content{ margin:0 auto; display:block; }
+.nav{ display:block; overflow:hidden; width:600px; position:absolute; left:375px; top:500px; }
+.nav li{ float:left; width:120px; }
+.nav li a{ color:#FFF; font-weight:bold; font-size: 14px; }
+.nav li a:hover{ color:#B1B0B0;  }
+.Content{ width:1020px; }
+.Content_top,.first{ overflow:hidden; }
+.focus,.main_mews{ width:535px; float:left; }
+.brief{ width:463px; float:right; border:1px solid #d1bb94; height:368px; background:url(../../images/zt0910_img/zt_jj.png) no-repeat 16px top; }
+.brief p{ text-indent:35px; display:block; margin:100px 40px 0 40px; line-height:36px; font-size:16px; }
+.main{ width:1020px; margin:0 auto; overflow:hidden; }
+.main_video{ width:466px; float:right; margin-top:54px; }
+.news_tit{ background:url(../../images/zt0910_img/zt_new.png) no-repeat 6px 6px; overflow:hidden; height:113px; }
+.news_tit a{ float:right; display:block; margin-top:35px; }
+.first{ padding:10px 0; border-bottom:1px dotted #c0c0c0; }
+.first img{ float:left; }
+.first_r{ width:333px; float:right; /*margin-top:10px;*/}
+.first_r p{ font-size:12px; line-height:24px; color:#666666; margin-top:10px;}
+
+.first_r p span a{ color:#F00; }
+.new_list{ display:block; margin-top:10px; }
+.new_list li{ background:url(../../images/zt0910_img/zt_icon_04.png) no-repeat 35px; }
+.new_list li a{ line-height:32px; padding-left:65px; }
+.video_tit{ height:324px;width: 466px;background: url(../../images/zt0910_img/video.png)  0 0 no-repeat; }
+.video_list{ display:block; margin-top:20px; }
+.video_list li{ background:url(../../images/zt0910_img/zt_icon_03.png) no-repeat 44px; }
+.video_list li a{ line-height:32px; padding-left:98px; }
+.zt_img_tit{ background:url(../../images/zt0910_img/zt_img.png) no-repeat left; height:79px; }
+.zt_img_con{ height:684px; background-color:#f2f2f2; margin-top:20px; }
+.butt{ position:relative; display:block; }
+.butt_l{ position:absolute; left:0; top:245px; }
+.butt_r{ position:absolute; right:0px; top:245px; }
+.zt_img_con img{ margin:6px; }
+.zt_img_con_bot{ overflow:hidden; }
+.bot_l{ width:618px; float:left; padding-left:30px; }
+.bot_l b{ font-size:24px; padding:20px 0 15px 0; display:block; }
+.bot_l p{ font-size:14px; line-height:22px; }
+.bot_r{ width:282px; float:left; overflow:hidden; padding:40px 0px 0 50px; }
+.bot_r a{ float:left; display:block; margin:15px; font-size:24px; }
+.a1{ font-size:14px; padding-top:20px; display:block; float:left; color:#666666; }
+.bot_r img{ float:left; }
+
+.zt_video_tit{ background:url(../../images/zt0910_img/zt_video.png) no-repeat left; height:75px; margin-top:5px; }
+.zt_video_con{ display:block; overflow:hidden; margin-top:25px; }
+.zt_video_con li{ width:232px; float:left; position:relative; }
+.icon{ position:absolute; left:0; top:156px; }
+.zt_video_con li a{ line-height:60px; text-align:center; display:block; }
+.ml{ margin:0 30px; }
+.mr{ margin-right:30px; }
+
+/* 大图轮播2*/
+/*清浮动*/
+.clearfix:after{ content:""; display:block; clear:both; }
+.clearfix{ zoom:1; }
+
+/* banner */
+.sm_sider{ width: 1020px; height: 690px; position: relative; overflow: hidden; margin-bottom: 0; margin-left: auto; margin-right: auto; }
+.banner-btn{ display:none; }
+.banner-btn a{ display:block; line-height:40px; position:absolute; top:240px; width:56px; height:53px; /*background-color:#000; opacity:0.3; filter:alpha(opacity=30) color:rgb(255, 255, 255); */overflow:hidden; z-index:4; }
+.prevBtn{ left:0px; }
+.nextBtn{ right:0px; }
+.banner-img{ font-size:0; *word-spacing:-1px; /* IE6、7 */ letter-spacing:-3px; position:relative; }
+.banner-img li{ display:inline-block;float: left; /* IE6、7 */ vertical-align:top; letter-spacing:normal; word-spacing:normal; font-size:12px;width: 1020px;height: 690px; }
+.sm_sider i{ width:56px; height:53px; cursor:pointer; display:block; }
+.sm_sider .nextBtn i{ background:url(../../images/zt0910_img/zt_icon_06.png) 0 0 no-repeat; }
+.sm_sider .prevBtn i{ background:url(../../images/zt0910_img/zt_icon_05.png) 0 0 no-repeat; }
+
+.banner-circle{ position:absolute; left:50%; bottom:15px; height:13px; text-align:center; font-size:0; border-radius:10px; background:rgba(255,255,255,0.3); filter:alpha(opacity:30); }
+.banner-circle li{ border-radius:10px; margin:2px; display:inline-block; display:-moz-inline-stack; vertical-align:middle; zoom:1; }
+.banner-circle li a{ display:block; padding-top:9px; width:9px; height:0; border-radius:50%; background:#B7B7B7; overflow:hidden; }
+.banner-circle .selected a{ background:#F40; }

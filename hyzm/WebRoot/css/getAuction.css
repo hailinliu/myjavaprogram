@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;font-size:12px;}
+dl,dt,dd,h3{list-style:none;margin:0;padding:0;}
+/*拍卖机构*/
+.tit_box,.img,.jg_box {box-shadow:1px 1px 5px #ccc;}
+.pmjg{background:url(../images/getAuction/background.png) repeat;padding:0 20px;width:1100px;}
+.jg_shuliang{color:#f60;font-weight:bold;}
+
+
+.fl{float:left;}
+.fr{float:right;}
+.tit_box{height:30px;width:1050px;background:#f8f6f4;padding:10px 45px;margin:20px 0;line-height:30px;}
+.tit_box a{margin-left:20px;padding:0 15px;}
+.tit_box a:hover{background:#D1C2AF;color:#000;text-align:center;}
+.pmjg_tit{font-size:20px;font-weight:bold;}
+.img img:hover{-webkit-transform: scale(1.1) rotate(2deg);
+-moz-transform: scale(1.1) rotate(2deg);
+-o-transform: scale(1.1) rotate(2deg);
+-ms-transform: scale(1.1) rotate(2deg);
+transform: scale(1.1) rotate(2deg);}
+
+.jg_box{height:180px;background:#fff;margin-bottom:20px;}
+.pmjg .img{width:180px;height:180px;overflow:hidden;}
+.pmjg .txt{height:145px;width:825px;text-align:left;padding:20px 10px;margin-right:33px;}
+.jg_box:hover{background:#f8f6f4;}
+h3{font-size:20px;height:36px;line-height:36px;font-weight:bold;}
+.txt p{line-height:22px;}
+.jgjs{color:#666;}
+.jgjs a:link,.jgjs a:visited{color:#36c;}
+dt{color:#999;width:60px;}
+dl{clear:both;line-height:22px;}
+
+/*翻页*/
+.fanye{margin-bottom:20px;height:36px;text-align:center;}
+.fanye a{margin-left:10px;display:inline-block;}
+.fanye a:link,.fanye a:visited{padding:8px 15px;line-height:20px;background:#f8f6f4;font-size:16px;}

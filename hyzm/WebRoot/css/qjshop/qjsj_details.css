@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.qj_details_list li{
+	border-bottom:1px dotted #676767;
+	height: 253px;
+	padding-bottom: 25px;
+}
+.qj_video_ye{
+	height: 68px;
+	clear: both;
+	line-height: 68px;
+}
+.qj_video_ye a{
+	height: 3px;
+	padding:8px;
+	border:1px solid #CCC;
+}
+.details_name{
+	height: 53px;
+	line-height: 64px;
+	font-size: 20px;
+}
+.details_time{
+	height: 40px;
+	line-height: 40px;
+	color: #989898;
+}
+.clock{
+	display: block;
+	height: 40px;
+	width: 13px;
+	margin-right: 10px;
+	background:url(../../images/flagship/clock.jpg) center center no-repeat;
+}
+.qj_details_box{
+	height: 160px;
+	width: 784px;
+}
+.qj_details_pics,.qj_details_pics img{
+	height: 160px;
+	width: 160px;
+}
+.qj_details_pics{
+	overflow: hidden;
+}
+.qj_details_txt{
+	width: 597px;
+}
+.qj_details_txt p{
+	margin-top: 10px;
+	line-height: 25px;
+	text-indent: 2em;
+}
+.goto_more{
+	width: 58px;
+	height: 23px;
+	background: #A3C765;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px;
+}

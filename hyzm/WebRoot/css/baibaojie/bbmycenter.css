@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mr_t10{
+	margin-top: 10px;
+}
+.mr_t20{
+	margin-top: 20px;
+}
+/*申请商家*/
+.myr_box2{
+	width: 890px;
+	border: 1px solid #D6D1CB;
+	border-top: 0 none;
+	_margin-top: -37px;
+	padding: 30px 0;
+}
+.forshop_stat{
+	text-align: center;
+	font-size: 14px;
+	height: 60px;
+	line-height: 60px;
+	background: #f6f6f6;
+}
+.forshop_cbtn{
+	background: #EE8400;
+	color: #fff;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+.forshop_cbtn:hover{
+	background: #d60000;
+	color: #fff;
+}
+.shops_stat2{
+
+	margin-top: 15px;
+}
+.shops_stat3{
+
+	margin-top: 15px;
+}
+/*个人信息中心*/
+.myshop_1info{
+	overflow: hidden;
+}
+.xz_zc{
+	border-bottom: 1px solid #E4E4E4;
+	height: 50px;
+	font-size: 14px;
+	padding-left: 45px;
+}
+.xz_zc label{
+	cursor: pointer;
+}
+.xz_zc p{
+	line-height: 32px;
+}
+.p01{
+	margin-left: 75px;
+}
+.pp_button input{
+	height: 36px;
+	width: 383px;
+	border:1px solid #ABADB3;
+	padding-left: 5px;
+	background: url(../../images/collect/upload_input_bg.jpg) repeat-x left top #fff;
+	font-size: 14px;
+	line-height: 36px;
+}
+.pp_pic_btn input{
+	width: 560px;
+}
+.pp_name{
+	border-bottom: 1px solid #E4E4E4;
+	height: 53px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-left: 45px;
+	padding-bottom: 8px;
+}
+.pp_txt{
+	font-size: 14px;
+	overflow: hidden;
+	padding-left: 45px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.pp_txt p{
+	margin-top: 15px;
+}
+.text_box textarea{
+	width: 790px;
+	height: 120px;
+	max-width: 873px;
+	/*resize:none;*/
+	border:1px solid #ABADB3;
+	margin-left: 4px;
+	background: url(../../images/collect/upload_input_bg.jpg) repeat-x left top #fff;
+	margin-top: 20px;
+}
+.go_upload{
+	cursor: pointer;
+	width: 118px;
+	height: 39px;
+	background: url(../../images/collect/ok_btn.jpg) no-repeat;
+	margin:0 auto;
+	display: block;
+	margin: 20px auto;
+	font-size: 16px;
+	font-weight: bold;
+	color: #a33300;
+}

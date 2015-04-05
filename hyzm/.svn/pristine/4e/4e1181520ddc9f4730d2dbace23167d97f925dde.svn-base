@@ -1,0 +1,56 @@
+﻿[
+    {
+        "descr": "2015年度华豫官网征集藏品鉴定通道",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/ads/2015jiandingwap.jpg",
+        "index": 1,
+        "time": 4,
+        "width": 500,
+        "wwwurl": "http://wap.wswhly.com/onlinepic/gotoonlinepicindex"
+    },
+    {
+        "descr": "2015年送拍藏品展示通道",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/ads/2015zhanshiwap.jpg",
+        "index": 2,
+        "time": 4,
+        "width": 500,
+        "wwwurl": "http://wap.wswhly.com/onlinepic/gotoonlinepicindex#pagethree"
+    },
+    {
+        "descr": "华豫之门现场海选网络报名",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/500_200_01.jpg",
+        "index": 3,
+        "time": 4,
+        "width": 500,
+        "wwwurl": "http://wap.wswhly.com/redirect?p=hxbm"
+    },
+    {
+        "descr": "保真代购-拍卖预展",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/daigougz-app.jpg",
+        "index": 4,
+        "time": 4,
+        "width": 500,
+        "wwwurl": "http://wap.wswhly.com/redirect?p=hxbm"
+    },
+    /*{
+        "descr": "华豫官网系列活动",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/banner0327.jpg",
+        "index": 4,
+        "time": 4,
+        "width": 500,
+        "wwwurl": ""
+    },*/
+    {
+        "descr": "图片鉴定专家入口	",
+        "height": 200,
+        "imgsrc": "http://wap.wswhly.com/images/2015zhuanjiaadmin.jpg?1=1",
+        "index": 5,
+        "time": 4,
+        "width": 500,
+        "wwwurl": "http://admin.wswhly.com/wswhlywap/"
+    }
+]

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.qj_picss{
+	width: 841px;
+}
+.qj_pic_lit{
+	width: 267px;
+	overflow: hidden;
+}
+.qj_pic_lit li{
+	width: 237px;
+	padding:15px 15px 10px;
+	margin-bottom: 20px;
+	background: #F3F3F3;
+	position: relative;
+	display: inline-block;
+	list-style-position:outside;
+	overflow: hidden;
+}
+.qj_pic_lit li img{
+	width: 237px;
+}
+.tuzhan_pic{
+	/*position: absolute;
+	left: 0;
+	bottom: 0;*/
+	/*height: 59px;*/
+	text-align: center;
+	line-height:24px;
+	/*width: 237px;*/
+	padding:8px 15px 5px 15px;
+}
+.qj_pic_lit2{
+	margin: 0 20px;
+}
+

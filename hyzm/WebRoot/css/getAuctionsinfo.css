@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;font-size:12px;}
+
+/*拍卖机构详情页*/
+
+/*拍卖机构顶部图片*/
+.jg_pic{height:180px;width:1140px;margin:0 auto;}
+
+.jg_bread a{display:inline-block;}
+.jg_bread{text-align:right;height:40px;line-height:55px;border-bottom:1px solid #ccc;color:#999;}
+
+.pmjg_left{width:240px;height:700px;padding:20px 20px;}
+.jg_left_img{border:1px solid #ccc;padding:10px;height:220px;}
+.jg_left_jianjie,.jg_left_txt{margin:20px 0;border:1px solid #ccc;padding:12px 15px 15px 15px;background: url(../images/getAuction/jg_left_bit_bg.png) top center no-repeat #fff;border-top:0;}
+.jg_left_jianjie p{line-height:18px;text-indent:2em;}
+.jg_left_jianjie span,.jg_left_txt span{margin-left:20px;color:#9D001E;font-weight:bold;}
+
+.jg_left_txt p{line-height:23px;}
+.jg_left_txt span,.jg_left_jianjie span{font-size:14px;margin-bottom:24px;display:block;}
+
+
+.pmjg_right{width:850px;padding:20px 0;}
+.jg_right_top{height:45px;line-height:41px;font-size:16px;font-weight:bold;background: url(../images/getAuction/jg_right_bit_bg.jpg) top center no-repeat;}
+.jg_right_top p{color:#c91818;}
+.jg_right_top p,.jg_right_top a{float:left;margin-left:67px;}
+
+.jg_right_center{margin:20px 0;overflow: hidden;}
+.jg_right_center p{line-height:25px;}
+.jg_right_p{text-indent:2em;}
+
+.jg_right_bottom{background: url(../images/getAuction/about_zx.jpg) top center no-repeat;height:40px;clear:both;}
+.jg_right_bottom2{background: url(../images/getAuction/pmyz_bg.jpg) top center no-repeat;height:40px;clear:both;margin-top:16px;}
+.jg_right_bottom3{background: url(../images/getAuction/pmjg_bg.jpg) top center no-repeat;height:40px;clear:both;}
+.jg_right_bottom4{background: url(../images/getAuction/pmsp_bg.jpg) top center no-repeat;height:40px;clear:both;}
+
+
+.jg_information{padding-left:45px;}
+.jg_information li{line-height:25px;background: url(../images/icon_jt.jpg) left center no-repeat;padding-left:10px;}
+.jg_information span{margin-left:50px;}
+
+/*拍卖预展-拍卖结果-拍卖视频*/
+.jg_right_pm{padding:22px 0;overflow:hidden;}
+.jg_right_pm li{width:178px;height:220px;margin:0 17px;text-align:center;float:left;}
+.jg_right_pm li p{margin-top:8px;text-align:center;display:block;width:100%;color:#999;}
+.jg_right_pm li p a{color:#666;text-align:center;display:block;}
+.jg_right_pm img{padding: 5px;border: 1px solid #cecece;height:160px;width:160px;}
+.jg_right_pm a:link,.jg_right_pm a:visited{color:#000;}
+.jg_right_pm a:hover{color:#c91818;text-decoration:underline;}
+
+/*相关资讯*/
+.zx_li_top{color: #666;line-height: 22px;margin-bottom: 10px;width: 100%;height: 22px;}
+.zx_li_top p{}

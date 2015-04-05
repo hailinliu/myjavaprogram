@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+*{padding:0; margin:0; border:0; outline:none; font-size:100%; font: inherit;}
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */  
+html {font-size: 100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; word-wrap: break-word;}
+body{ font-family:"宋体", Arial,"Trebuchet MS", Helvetica, sans-serif;font-size:12px; margin:0; padding:0; background:url(../images/huodong_bg.jpg) repeat top center; margin-bottom:30px;}
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,img,form{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none; list-style-image: none; margin: 0; padding: 0; }
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+table,th,tr,td,input,select{font-size:12px;}
+input{font-family:Arial; padding:0; margin:0;}
+table,td{border-collapse:collapse; border-spacing: 0;}
+i{font-style:normal;}
+/*link样式*/
+a{outline:none;font-family:Arial;text-decoration:none; color:#333; cursor:pointer;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:none; cursor:pointer; color:#a00104;}
+a:active {star:expression(this.onFocus=this.blur());}
+.fl{float:left;}
+.fr{float:right;}
+.fl,.fr{display:inline;}
+/*自适应高度*/
+.clear:after{height:0;content:'';display:block;clear:both;}
+.clear{zoom:1;}/*触发ie6,after属性*/
+/*公共样式*/
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+
+/*top*/
+#top{width:100%;overflow:hidden;}
+.tp{height:400px;background:url(../images/huodong.jpg) center top no-repeat;}
+.banner_hb{ width:100%; height:11px; background:url(../images/icon_hb.jpg) top center repeat-x;}
+
+/*p*/
+#p{width:1030px;margin:0 auto;text-align:center;font-size:14px;line-height:40px;}
+#p p{width:700px;margin:0 atuo; display:inline-block;}
+
+.lou1{ width:990px; height:940px; background:url(../images/houdong_bg.jpg) top center no-repeat; margin:0 auto; margin-top:43px;}
+.lou1 .da_bt{ font-family:"宋体"; font-size:36px; color:#feedb9;text-align:center; position:relative; top:98px;}
+.person_list{ display:block; width:933px; height:364px; position:relative;top:122px;left:30px;}
+.person_list li{float:left; width:156px; height:224px; margin:60px 0 0 0; background:url(../images/shuxian.jpg) right -5px no-repeat; padding:0 15px;}
+.person_list li.none{ background:none; padding-right:0;}
+.person_list li p{clear:both; color:#930d0d; font-family:"微软雅黑"; font-size:20px; font-weight:800;text-align:center; margin-top:15px;}
+.person_list li p.p2{font-size:14px; margin-top:5px;}
+.person_list2{ display:block; width:933px; height:364px; position:relative;top:138px;left:30px;}
+.person_list2 li{float:left; width:156px; height:224px; margin:60px 0 0 0; background:url(../images/shuxian.jpg) right -5px no-repeat; padding:0 15px;}
+.person_list2 li.none{ background:none; padding-right:0;}
+.person_list2 li p{clear:both; color:#930d0d; font-family:"微软雅黑"; font-size:20px; font-weight:800;text-align:center; margin-top:15px;}
+.person_list2 li p.p2{font-size:14px; margin-top:5px;}
+.lou1 li .p2{ font-size:14px;}
+.lou1 img.tu1{width:156px; height:192px; margin:0px;}
+.lou1 img.tu2{width:3px; height:224px; float:right;}
+.lou_zuo{ float:left;}
+.lou2{width:989px; height:565px; background:url(../images/huodong_bg2.jpg) no-repeat;margin:0 auto; margin-top:20px; padding-bottom:10px;}
+.da_bt1{ font-family:"宋体"; font-size:36px; color:#feedb9;text-align:center;position:relative; top:120px; }
+.pp{font-family:"微软雅黑"; font-size:18px; color:#000; position:relative; width:814px; top:150px; left:60px;}
+.pp1{ color:#990000; font-weight:700;}
+.ditu{ position:relative; top:133px; left:30px; width:932px;height:364px;border:#ccc solid 1px;}
+.ewm{ width:990px; height:270px; margin:0 auto; text-align:center; background:url(../images/viewfile.jpg) top center no-repeat; margin-top:30px;}
+.ewm_wz{width:990px;margin:0 auto; text-align:center; margin-bottom:30px; font-size:14px;}
+.ewm_wz a:hover{ text-decoration:underline;}
+
+
+
+
+
+

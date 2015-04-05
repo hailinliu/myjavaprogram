@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.b{
+	font-weight: bold;
+}
+body{
+	background:#fff;
+}
+/*旗舰商家列表页*/
+.qj_list_box{
+	width: 1140px;
+	margin:0 auto;
+}
+.qj_list_box img:hover{
+	-webkit-transform: scale(1.1) rotate(5deg);
+	-moz-transform: scale(1.1) rotate(5deg);
+	-o-transform: scale(1.1) rotate(5deg);
+	-ms-transform: scale(1.1) rotate(5deg);
+	transform: scale(1.1) rotate(5deg);
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+	-moz-opacity:0.8;
+
+}
+.qj_list_head{
+	height: 45px;
+	width: 1140px;
+	background:url(../../images/flagship/qjtit_bg.gif) 0 0 no-repeat;
+	margin-top: 10px;
+	color: #fff;
+	line-height: 40px;
+	font-weight: bold;
+}
+.qj_list_head p{
+	font-size: 20px;
+	float: left;
+	margin-left: 48px;
+}
+.qj_list_head span{
+	font-size: 14px;
+	float: right;
+	color: #828282;
+	margin-right: 11px;
+}
+.qj_shop_list li{
+	border-bottom:1px dotted #676767;
+	height: 253px;
+	padding-bottom: 20px;
+}
+.shops_name{
+	line-height: 56px;
+	height: 56px;
+	font-size: 14px;
+}
+.shop_box{
+	height: 196px;
+}
+.shop_box_left{
+ 	width: 494px;
+ 	height: 196px;
+}
+.qj_list_pics{
+	width: 194px;
+	height: 194px;
+	border:1px solid #E0E0E0;
+	overflow: hidden;
+	display: block;
+}
+.qj_shop_lb,.qj_shop_ls{
+	width: 279px;
+	font-size:14px;
+}
+.qj_shop_lb{
+	height: 32px;
+	line-height: 32px;
+}
+.qj_shop_ls{
+	height: 125px;
+	line-height: 30px;
+}
+.qj_shop_ls p{
+	width: 225px;
+	text-indent: 2em;
+}
+.qj_list_txt{
+	height: 196px;
+	width: 279px;
+	margin-left: 18px;
+}
+
+.goto_shop{
+	width: 132px;
+	height: 37px;
+	padding-right: 32px;
+	background:url(../../images/flagship/qjtit_bg.gif) 0 37px; no-repeat;
+	cursor: pointer;
+	clear: both;
+	font-size: 16px;
+	color: #fff;
+}
+.qj_shop_right_box{
+	width: 531px;
+	height: 203px;
+	padding-top: 13px;
+}
+.qj_listpic{
+	width: 168px;
+	height: 168px;
+	border:1px solid #E1E1E1;
+	overflow: hidden;
+	float: right;
+}
+.qj_listpic_center{
+	margin:0 10px;
+}
+.qj_ye{
+	text-align: right;
+	height: 68px;
+	clear: both;
+	line-height: 68px;
+}
+.qj_ye a{
+	height: 3px;
+	padding:8px;
+	border:1px solid #CCC;
+}
+.qj_ye .page_on,.qj_ye a:hover{
+	background: #E40707;
+	color: #fff;
+}

@@ -1,0 +1,68 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://jsptags.com/tags/navigation/pager" prefix="pg"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+
+    <title>网上报名</title>
+
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+
+	<jsp:include page="../head/header.jsp"></jsp:include>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/basic.css'/>"/>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/resetpwd.css'/>"/>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/slideshow.css'/>"/>
+
+
+	<script type="text/javascript" src="<c:url value='/js/jquery-1.7.2.js'/>"></script>
+	<script type="text/javascript" src="<c:url value='/js/resetpwd.js'/>"></script>
+	<script type="text/javascript" src="<c:url value='/js/alert.js'/>"></script>
+
+<style type="text/css">
+	.cz_go a:link,.cz_go a:visited{font-size:20px;color:#406eba;text-decoration:none;font-family: 微软雅黑}
+	.cz_go a:hover{color:#9D0104;text-decoration:underline;}
+	.cz_go .center_a{margin:0 65px;}
+	.box_span{font-size:24px;color:#a00104;}
+</style>
+
+</head>
+<body>
+	<!--充值成功-->
+	<div id="g_doc" style="font-family: 微软雅黑">
+    	<div class="g_hd">
+        	<div class="g_in">
+            	<h1 class="f_ff1">乐园账号</h1>
+                <div class="shuxian">|</div>
+                <h2 class="f_ff1">充值成功</h2>
+            </div>
+        </div>
+        <div class="main_box" style="height:400px;margin-top:70px;">
+            <div style="text-align:center;background:#fff;padding:40px 0;line-height:60px;">
+                <p style="font-size:20px;">您的账户&nbsp;&nbsp;
+                	<span class="box_span">${username}</span>&nbsp;&nbsp;已成功充值了&nbsp;&nbsp;
+                    <span class="box_span">${overMoney}</span>&nbsp;&nbsp;元，充值后账户余额为&nbsp;&nbsp;
+                    <span class="box_span">${money}</span> &nbsp;&nbsp;元。
+                </p>
+                <div class="" style="color:#FF0000;font-size:16px;">
+                    ★ 参加海选网上报名的用户，充值成功后，请继续进行
+                    <a href="<c:url value='/mine/gotoenroll'/>" class="center_a" target="_blank" style="color:#406eba;padding:0 10px">网上报名</a>操作。
+
+
+                </div>
+                <div class="cz_go">
+    				<a href="<c:url value='/mine/mymoneylist'/>" target="_blank">查看收支明细</a>
+                    <a href="<c:url value='/mine/gotoenroll'/>" class="center_a" target="_blank">继续网上报名</a>
+                    <a href="<c:url value='/mine/gotovip'/>" target="_blank">继续升级会员</a>
+    			</div>
+                <p style="color:#FF0000;font-size:16px;">★ 参与网站活动的充值，2个工作日内会有商务专员与您联系，敬请稍后。</p>
+            </div>
+        </div>
+    </div>
+<jsp:include page="../foot/footer.jsp"></jsp:include>
+  </body>
+</html>

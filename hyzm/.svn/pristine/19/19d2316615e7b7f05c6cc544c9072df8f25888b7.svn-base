@@ -1,0 +1,320 @@
+.block1{
+	display: block;
+}
+.none1{
+	display: none;
+}
+
+
+button::-moz-focus-inner{
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+.easyDialogBox{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15%;
+	width:550px;
+	z-index: 10;
+
+}
+
+.md-content {
+	/*css3 过渡效果*/
+-webkit-transform: scale(0.7);
+-moz-transform: scale(0.7);
+-ms-transform: scale(0.7);
+transform: scale(0.7);
+opacity: 0;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.mod_show .md-content{
+
+	-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+
+}
+
+
+.easyDialog_wrapper{
+	width: 100%;
+	color:#444;
+	border:3px solid rgba(0,0,0,0);
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.4);
+	box-shadow:0 0 10px rgba(0,0,0,0.4);
+	/*display:none;*/
+	font-family:"Microsoft yahei", Arial;
+	overflow: hidden;
+
+
+}
+
+.easyDialog_wrapper .easyDialog_content{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	background:#fff;
+	border:1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+.easyDialog_wrapper .easyDialog_title{
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	color:#666;
+	padding:0 0px 0 10px;
+	font-size:14px;
+	border-bottom:1px solid #e5e5e5;
+	background:#f7f7f7;
+	border-radius:4px 4px 0 0;
+}
+
+.easyDialog_wrapper .close_btn{
+	font-family:arial;
+	font-size:18px;
+	_font-size:12px;
+	font-weight:700;
+	color:#999;
+	text-decoration:none;
+	float:right;
+	display: block;
+	height: 100%;
+	width:30px;
+	text-align: center;
+	background: #d6d6d6
+}
+
+.easyDialog_wrapper .close_btn:hover{
+	color:#333;
+}
+
+.easyDialog_wrapper .easyDialog_text{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	padding:0px 0px 0px 60px;
+	font-size:14px;
+	background:url(../images/yes1.png) no-repeat 0px center;
+	margin: 20px auto;
+	margin-bottom: 0;
+}
+
+.easyDialog_wrapper .info_text{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	/*padding:0px 0px 0px 60px;*/
+	font-size:14px;
+	color: #000;
+	margin-top: 10px;
+	/*background:url(../images/yes1.png) no-repeat 0px center;*/
+}
+
+.easyDialog_wrapper .info_textmoney{
+	background:#f3f3f3;
+	border-top: 1px solid #e6e6e6;
+}
+.easyDialog_wrapper .info_textmoney span,.iomred{
+	color: #DF1E1E;
+	font-size: 20px;
+	font-family: arial;
+}
+.easyDialog_wrapper .a_sj{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.easyDialog_wrapper .a_sj a{
+	font-size: 14px;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+	color: #1b66c7;
+}
+.easyDialog_wrapper .a_sj a:hover{
+	text-decoration: underline;
+	color: #DF1E1E;
+}
+
+.easyDialog_wrapper .easyDialog_footer{
+	padding:0 10px;
+	margin-top: 20px;
+	*zoom:1;
+	/*width: 180px;*/
+	margin:0 auto;
+	border-top:1px solid #DFDFDF;
+	background: #f7f7f7;
+}
+
+.easyDialog_wrapper .easyDialog_footer:after{
+	content:'';
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	clear:both;
+}
+
+.easyDialog_wrapper .btn_highlight,
+.easyDialog_wrapper .btn_normal,.easyDialog_wrapper .btn_href{
+	border:1px solid;
+	border-radius:2px;
+	cursor:pointer;
+	font-family:"Microsoft yahei", Arial;
+	float:right;
+	font-size:12px;
+	padding:0 12px;
+	height:26px;
+	line-height:26px;
+	margin:10px 0;
+	width: 80px;
+}
+
+.easyDialog_wrapper .btn_highlight{
+	background:#4787ed;
+	background:-webkit-gradient(linear,center bottom,center top,from(#4787ed),to(#4d90fe));
+	background:-moz-linear-gradient(90deg, #4787ed, #4d90fe);
+	border-color:#3079ed;
+	color:#fff;
+	margin-right: 15px;
+}
+
+.easyDialog_wrapper .btn_normal{
+	margin-left:10px;
+	border-color:#d6d6d6;
+	background:#f0f0f0;
+	color:#333;
+	background:-webkit-gradient(linear,center bottom,center top,from(#ececec),to(#f4f4f4));
+	background:-moz-linear-gradient(90deg,#ececec,#f4f4f4);
+	margin-right: 155px;
+}
+
+.easyDialog_wrapper .btn_highlight:hover,
+.easyDialog_wrapper .btn_normal:hover{
+	background:#A40809;
+	border-color:#fff;
+	color: #fff;
+}
+
+.easyDialog_wrapper .btn_href{
+	margin-left:10px;
+	border-color:#d6d6d6;
+	background:#f0f0f0;
+	color:#333;
+	background:-webkit-gradient(linear,center bottom,center top,from(#ececec),to(#f4f4f4));
+	background:-moz-linear-gradient(90deg,#ececec,#f4f4f4);
+	width: auto;
+}
+
+/*input*/
+.input_on{
+padding:2px 8px 0pt 3px;
+height: 25px;
+line-height: 25px;
+margin-top: 5px;
+font-size: 14px;
+border:1px solid #999;
+background-color:#FFFFCC;
+}
+.input_off{
+padding:2px 8px 0pt 3px;
+height: 25px;
+line-height: 25px;
+margin-top: 5px;
+font-size: 14px;
+border:1px solid #CCC;
+background-color:#FFF;
+}
+.input_move{
+padding:2px 8px 0pt 3px;
+height: 25px;
+line-height: 25px;
+margin-top: 5px;
+font-size: 14px;
+border:1px solid #999;
+background-color:#FFFFCC;
+}
+.input_out{
+/*height:16px;默认高度*/
+padding:2px 8px 0pt 3px;
+height: 25px;
+line-height: 25px;
+margin-top: 5px;
+font-size: 14px;
+border:1px solid #CCC;
+background-color:#FFF;
+}
+.input_text{
+border: 0;
+border-bottom:1px solid #999;
+background: none;
+width:800px;
+
+}
+
+/* 忘记密码 ul css*/
+.chang_list1{
+	margin: 15px 0 15px 86px;;
+	width: auto;
+	display: block;
+	overflow: hidden;
+	/*width: 440px;*/
+
+
+}
+
+.chang_list1 li {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	/*margin-bottom: 10px;*/
+	color: #a00104;
+	overflow: hidden;
+	/*margin-right: 8px;*/
+}
+.chang_list1 li.mc {
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chang_list1 li input {
+width: 216px;
+height: 23px;
+line-height: 23px;
+padding: 3px;
+margin: 0;
+overflow: hidden;
+}
+
+/*错误提示*/
+/*.codxx{
+	position: absolute;
+	left: 204px;
+	bottom: 36px;
+}*/
+
+/*.tisxx{
+	position: absolute;
+	left: 338px;
+	bottom: 70px;
+}*/
+
+/*.cod_no1{
+	position: absolute;
+	right: 25px;
+	top: 55px;
+}*/

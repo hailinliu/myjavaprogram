@@ -1,0 +1,42 @@
+/* CSS Document */
+.listWrap{ width:918px;  margin:40px auto}
+.myOrder{ margin:6px auto 20px auto; border:1px solid #ccc}
+.thead tr{ height:40px; color:#808080}
+.myOrder .firstTr{ border-bottom:1px solid #ccc; height:40px; background:#f6f6f6}
+.myOrder .firstTr span{ margin:0 40px 0 12px}
+.myOrder .firstTr td b{ display:none}
+.myOrder .firstTr .time{ font-weight:bold}
+.myOrder .secondTr{ height:120px}
+.myOrder .secondTr td{ border-left:1px solid #dedede}
+.myOrder .secondTr .img{ margin:10px; width:100px; height:100px}
+.myOrder .secondTr .info{ width:200px; height:80px; margin:14px; text-align:left}
+.myOrder .secondTr p{ margin:12px 0; color:#808080}
+.bigImg{ border:1px solid #eee; z-index:9999; background:#fff; width:200px; height:40px; box-shadow:3px 3px 6px 0 #ccc; font-size:30px; line-height:40px;  font-weight:bold; color:#c91818; padding:24px}
+.button_con,.button_pay,.button_return,.button_cancel{ padding:6px 0;color:#fff; text-align:center; border-radius:3px; display:block; margin:6px auto; cursor:pointer; width:70%}
+.button_con{ background:#3385FF;}
+.button_pay{ background: #F90}
+.button_return{ background:#3385FF}
+.button_cancel{ background:#fff; color:#666}
+.button_con:hover,.button_pay:hover{ color:#fff}
+.button_cancel:hover{opacity:1; color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

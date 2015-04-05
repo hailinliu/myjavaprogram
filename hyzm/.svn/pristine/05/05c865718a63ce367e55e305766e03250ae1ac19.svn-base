@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*商家视频*/
+
+
+.qj_video_list li{
+	width: 237px;
+	height: 299px;
+	background: #F3F3F3;
+	float: left;
+	padding:15px 15px 0;
+	margin:26px 15px 26px 0;
+}
+.qj_video_list .qj_video_no{
+	margin-right:0;
+}
+.qj_video_lispic,.qj_video_lispic img{
+	height: 254px;
+	width: 237px;
+	overflow: hidden;
+}
+.qj_video_list img:hover{
+	/*-webkit-transform: scale(1.1) rotate(5deg);
+	-moz-transform: scale(1.1) rotate(5deg);
+	-o-transform: scale(1.1) rotate(5deg);
+	-ms-transform: scale(1.1) rotate(5deg);
+	transform: scale(1.1) rotate(5deg);*/
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+	-moz-opacity:0.8;
+}
+.qj_video_list p{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.qj_video_list li{
+	position: relative;
+	overflow: hidden;
+}
+
+.video_icon2{
+	position: absolute;
+	left: 15px;
+	bottom: 45px;
+}

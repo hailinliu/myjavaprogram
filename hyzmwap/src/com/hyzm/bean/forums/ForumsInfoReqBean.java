@@ -1,0 +1,95 @@
+package com.hyzm.bean.forums;
+
+public class ForumsInfoReqBean {
+	private long id;
+	private long userid;
+	private long collectionid;//
+	private String collectionnum;//
+	private String content;//
+	private String countnum;//
+	private String likenum;//
+	private String forumtime;//
+	private String desction;//
+	private String type;//1.us藏品 2.我要上华豫藏品
+	
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public long getUserid() {
+		return userid;
+	}
+
+	public void setUserid(long userid) {
+		this.userid = userid;
+	}
+
+	public long getCollectionid() {
+		return collectionid;
+	}
+
+	public void setCollectionid(long collectionid) {
+		this.collectionid = collectionid;
+	}
+
+	public String getCollectionnum() {
+		return collectionnum;
+	}
+
+	public void setCollectionnum(String collectionnum) {
+		this.collectionnum = collectionnum;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getCountnum() {
+		return countnum;
+	}
+
+	public void setCountnum(String countnum) {
+		this.countnum = countnum;
+	}
+
+	public String getLikenum() {
+		return likenum;
+	}
+
+	public void setLikenum(String likenum) {
+		this.likenum = likenum;
+	}
+
+	public String getForumtime() {
+		return forumtime;
+	}
+
+	public void setForumtime(String forumtime) {
+		this.forumtime = forumtime;
+	}
+
+	public String getDesction() {
+		return desction;
+	}
+
+	public void setDesction(String desction) {
+		this.desction = desction;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+}

@@ -1,0 +1,212 @@
+
+
+/*左半部分*/
+
+.qj_lefttop,.qj_adbox,.qj_newsbox{
+	height:334px;
+}
+.qj_adbox{
+	width: 413px;
+	background: #ccc;
+}
+.qj_newsbox{
+	width:402px;
+	padding:0 13px;
+}
+.qj_tits{
+	font-size: 26px;
+	height: 66px;
+	overflow: hidden;
+	color: #E55D51;
+	/*font-weight: bold;
+	*//*line-height: 66px;*/
+	text-align: center;
+}
+.qj_tits a{
+
+	color: #E55D51;
+
+}
+.qj_tits a:hover{
+
+	color: #333;
+
+}
+.qj_newsbox ul li{
+	line-height: 35px;
+	background:url(../../images/flagship/qj_dot.jpg) left center no-repeat;
+	padding-left: 25px;
+	margin-left: 10px;
+	text-align:left;
+	width: 360px;
+	height:35px;
+	font-size: 14px;
+}
+.txtqj_new a{
+	display: block;
+	width:295px;
+	height: 100%;
+	overflow: hidden;
+}
+.qjnews_more{
+	width: 389px;
+	height: 36px;
+	background-color: #EDEDED;
+	border:1px solid #DDDDDD;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+.qj_tit1{
+	font-size: 18px;
+	/*font-weight: bold;
+	*/
+	letter-spacing: 2px;
+	height: 67px;
+	line-height: 67px;
+}
+.qj_tit1 .red{
+	font-size: 24px;
+}
+.more_pics{
+	font-size: 12px;
+	color: #5B5B5B;
+	font-weight: normal;
+	margin-left: 685px;
+}
+
+/*商家图展*/
+.qj_pic_list ul li{
+	width: 198px;
+	height: 198px;
+	background-color: #F0F0F0;
+	border:1px solid #E0E0E0;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.qj_pic_list ul li:hover{
+
+	border:1px solid #CC0001;
+
+}
+.qj_pic_list{
+	height: 420px;
+}
+.qj_pic_last{
+	margin-right: 0;
+}
+.bottom_margin{
+	margin-bottom: 20px;
+}
+.qj_pic_tit_box,.qj_pic_tit{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height:30px;
+	width: 198px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fff;
+}
+.qj_pic_tit_box{
+	background-color: #787878;
+	opacity: 0.5;
+	filter:Alpha(opacity=50);
+	-moz-opacity:0.5;
+}
+.qj_pic_list ul li:hover .qj_pic_tit{
+	background-color: #CC0001;
+}
+
+.qj_pic_tit a:link,.qj_pic_tit a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+.qj_pic_tit a:hover{
+	text-decoration: underline;
+}
+
+/*商家视频*/
+.big_video{
+	width: 389px;
+	height:340px;
+	background-color: #B8B8B8;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.video_tit_box,.video_tit{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	width: 389px;
+	font-size: 14px;
+}
+.video_tit_box,.video_tit_box2{
+	background-color: #EAEAEA;
+	opacity: 0.5;
+	filter:Alpha(opacity=50);
+}
+.video_icon{
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+}
+.qj_videos{
+	width: 452px;
+	float: left;
+	height: 340px;
+}
+.qj_video_top{
+	background:url(../../images/flagship/qj_video_top_bg.jpg) center top no-repeat;
+	height: 4px;
+	width: 216px;
+}
+.qj_videos li{
+	width: 216px;
+	height: 166px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 8px;
+	_margin-left: 5px;
+}
+.video_tit2,.video_tit_box2{
+	height: 30px;
+	width: 216px;
+	line-height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.lit_video{
+	background: #B8B8B8;
+	height: 162px;
+	width: 216px;
+	overflow: hidden;
+}
+.video_icon2{
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+.qj_videos .no_margin{
+	margin-bottom: 0;
+}
+
+
+/*右半部分*/
+
+
+
+
+
+

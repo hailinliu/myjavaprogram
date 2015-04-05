@@ -1,0 +1,52 @@
+.listWrap{ width:918px; border:1px solid #ccc; margin:40px auto}
+/*交易流程*/
+#mallMainT .process{ height:31px; line-height:31px; color:#303030; margin:24px auto}
+#mallMainT .process ul{ height:31px;margin-left:12px}
+#mallMainT .process ul li{ width:254px; height:31px; line-height:31px; background:url(../../images/baibaojie/mallCartBg.png) no-repeat -70px -110px; text-align: center; color:#fff}
+#mallMainT .process ul li.step-1{ top:0; left:0;z-index:10;background-position:-70px -145px;}
+#mallMainT .process ul li.step-2{ top:0; left:235px; z-index:9;background-position:-70px -145px; }
+#mallMainT .process ul li.step-3{ top:0; left:470px; z-index:8;background:#c91818; border-radius:0px 3px 3px 0}
+
+#mallMainC .tongyi{ font-size:24px; padding:24px 0 12px 24px; border-bottom:1px solid #ccc}
+
+/*确认订单信息*/
+#mallMainC{ width:896px; margin-left:12px}
+#mallMainC .orderinfoWrap{ padding:20px 0 40px 0;border-top:1px solid #f9f5ee;}
+#mallMainC .orderinfoWrap h3{height:40px;line-height:40px; text-indent:1em}
+#orderTable{ background:#fff; border-top:4px solid #c0c0c0}
+#orderTable .thead{ height:38px; line-height:38px; color:#303030; background:#f6f6f6; border-bottom:1px solid #ceceec}
+#orderTable .tshop{ height:30px; line-height:30px; text-indent:24px; font-weight:bold; border-bottom:1px dotted #c6c6c6; color:#999}
+#orderTable .tshop a{ text-decoration:none; color:#000; margin-right:60px; font-weight:normal}
+#orderTable .tshop a.heir_phone i{ color:#666; font-style:normal}
+#orderTable .tshop a.heir_phone b{ display:none}
+#orderTable .tbody{ padding:20px; height:100px}
+#orderTable .tbody .tdGoods{ width:360px}
+#orderTable .tbody .tdGoods .goodsPic{ width:50px; margin:0 24px}
+.bigImg{ border:1px solid #eee; z-index:9999; background:#fff; width:240px; height:40px; box-shadow:3px 3px 6px 0 #ccc; font-size:30px; line-height:40px;  font-weight:bold; color:#c91818; padding:24px}
+#orderTable .tbody .tdGoods .goodsPic a.toBig{ height:20px; line-height:20px; text-decoration:none; border-bottom:1px dashed #999; color:#666}
+#orderTable .tbody .tdGoods .goodsWord{ width:240px; text-align:left}
+#orderTable .tbody .tdGoods .goodsWord a{ color:#888}
+#orderTable .tbody .tdGoods .goodsWord p{ height:14px; line-height:14px; margin-top:5px; color:#666}
+/*总价 、提交订单按钮*/
+#submitOrders{ width:144px; height:40px;background: url(../../images/baibaojie/btnBg.png) no-repeat 0 0; border:none; font-weight:bold; margin:30px auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

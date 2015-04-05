@@ -1,0 +1,47 @@
+	/* 页面初始化 */
+	html,body{ overflow-y: visible; overflow-x:hidden; }
+    ul{ list-style: none; padding: 0; margin: 0}
+    li,a,div{ padding: 0; margin: 0;border: none;}
+    a{ text-decoration: none; }
+    /* 头部 */
+    #header{ width: 100%; background: url(../images/indexSprite03.png) repeat-x 0 -130px; overflow: hidden; border:none; border-radius:0; clear: both; }
+    #header h1{ float: left; display: block; color:#fff; box-shadow: none; text-shadow:none; font-size: 1.3em; font-family: "黑体"; font-weight: normal; width: 50%; margin:0; padding: 0;line-height: 2.5;}
+    #header a{ float: left; display: block; width: 25%; margin:.1em 0;  position: relative;background: none;border: none;padding: 0; background: url(../images/indexSprite02.png) no-repeat 0 0; text-indent: -999em }
+	#header a.login{ background-position:  49.5% 0; background-size:600% ; }
+	#header a.my{ background-position:  67% 0; background-size:600% ; }
+	#header a.regist{ background-position:  81% 0; background-size:600% ; }
+	#header a.logoff{ background-position:  98% 0; background-size:600% ; }
+
+	/* 内容 */
+    #content{ clear: both; margin: 0; padding: 0; }
+    /* 轮转图 */
+	#bannerPic{ clear: both; width: 100%; overflow: hidden; position:relative; background: #232323; }
+	#bannerPic ul{ position:absolute; top:0; left:0; height: 100%; }
+	#bannerPic li{ height: 100%; float: left; display: none; }
+	#bannerPic li a{ display: block; width: 100%; height: 100%; }
+	#bannerPic dl{ position: absolute; bottom:2%; margin: 0 auto; left: 40%; display: none;}
+	#bannerPic dl dd{ width: .8em; height: .8em; float: left; margin-left:.8em; border-radius: .8em;}
+	.blurDd{ background: #ccc;}
+	.focusDd{ background: #f00;}
+	/* 图标导航 */
+	#nav{ width: 100%; overflow: hidden; clear: both; background: #0b0b0b; opacity: .9; }
+	#nav li{ width: 49.2%; float: left; position:  relative; }
+	#nav li a{ display: block; background:url(../images/index_0430.png) no-repeat 13% 0%; text-indent: -9999em; position: absolute; background-size: 290% 450%; -moz-background-size:290% 450%; -webkit-background-size:290% 450%; -ms-background-size:290% 450%; }
+	/* 底部 */
+	#footer{ width: 100%; background: url(../images/indexSprite03.png) repeat-x 0 0; overflow: hidden; border:none; border-radius:0; }
+	#footer ul{ list-style: none; width: 100%; height: 100%}
+	#footer li{ float: left; width: 25%; padding: .5em 0 0 0; position: relative;}
+	#footer li a{ display: block; position: absolute; top: 0; left: 0; width: 100%; background: url(../images/indexSprite02.png) no-repeat 0 0;}
+	#footer span{  display: block;position: absolute; bottom: 0; left: 0;text-shadow:none; box-shadow: none;color: #efefef; font-size: .8em; font-weight: normal; text-align: center; line-height: 1; width: 100%;}
+	#footer li a.index{background-position:  -0.5% 15%; background-size:900% ;}
+	#footer li a.info{background-position:  11% 0; background-size:900% ;}
+	#footer li a.active{background-position:  22.5% 0; background-size:900% ;}
+	#footer li a.center{background-position:  33.5% 0; background-size:900% ;}
+
+
+
+
+
+
+
+

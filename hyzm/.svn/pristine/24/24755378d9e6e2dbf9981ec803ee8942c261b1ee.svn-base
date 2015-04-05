@@ -1,0 +1,211 @@
+/*上传插件 css*/
+
+
+.up_pics{
+	font-size: 14px;
+	line-height: 40px;
+	/*height: 40px;*/
+	margin: 20px 0;
+	position: relative;
+	width: 1095px;
+}
+.up_pics span{
+	height: 40px;
+	display: block;
+}
+.upload_pic_btn{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	background: url(../images/collect/upload_pic_btn_bg.jpg) no-repeat;
+	cursor: pointer;
+}
+
+.up_box{
+	padding-left: 5px;
+	width:870px;
+	height: 88px;
+	border:1px solid #d6d6d6;
+	background: #fff url(../images/collect/upload_input_bg.jpg) repeat-x left top;
+}
+.up_txt1{
+	width: 430px;
+	margin-left: 30px;
+	overflow: hidden;
+	padding-top: 10px;
+	color: #666;
+
+}
+.shili_img{
+	width: 200px;
+	height: 88px;
+	display: block;
+	background: url(../images/collect/shili.jpg) 0 0 no-repeat;
+	position: relative;
+}
+.brbb{
+	height:1px;
+	border-bottom: 1px solid #E4E4E4;
+	margin-top:20px;
+}
+.xuzhi_tit1{
+	background:#F8F8F8;
+	width:837px;
+	overflow: hidden;
+	color: #000;
+	padding: 20px;
+	margin-left: 115px;
+	font-size: 16px;
+}
+.xuzhi_tit1 p{
+	/*height: 30px;*/
+	line-height: 30px;
+}
+.shili_tupian{
+	position: absolute;
+	bottom: 125px;
+	left: 0;
+	margin: 0 auto;
+	/*width: 900px;*/
+	text-align: center;
+	display: none;
+	z-index: 1000;
+}
+.pic_details{
+	height: 74px;
+	width: 760px;
+	background: #EEEEEE;
+	clear: both;
+	padding: 10px 0 10px 65px;
+	margin-bottom: 15px;
+	margin-left: 117px;
+}
+.upload_smll_pic{
+	height: 75px;
+	width: 100px;
+	background: #D7D6D4;
+}
+.pic_detail_more textarea{
+	width: 568px;
+	height: 73px;
+	border:1px solid #C1C1C1;
+	margin-left: 20px;
+}
+.close{
+	width: 23px;
+	height: 23px;
+	margin-top: 26px;
+	margin-left: 20px;
+	display: inline-block;
+	background: url(../images/collect/close.png) no-repeat left top;
+}
+.close:hover{
+	background: url(../images/collect/close.png) no-repeat left -23px;
+}
+.jindutiao{
+	height: 43px;
+	width: 709px;
+	background: #EEEEEE;
+	line-height: 43px;
+	margin-left: 117px;
+}
+.jindutiao2{
+	height: 11px;
+	width: 200px;
+	background: #FFBA00;
+	border:1px solid #F09500;
+	margin-top: 14px;
+}
+
+.go_upload{
+	cursor: pointer;
+	width: 118px;
+	height: 39px;
+	background: url(../images/collect/ok_btn.jpg) no-repeat;
+	margin:0 auto;
+	display: block;
+	margin: 20px auto;
+	font-size: 16px;
+	font-weight: bold;
+	color: #a33300;
+}
+.pic_require{
+	margin-left: 5px;
+	cursor:pointer;
+}
+.pic_shuoming{
+	position: absolute;
+	top:-50px;
+	left: 350px;
+	background: #fbffdc;
+	box-shadow: 0 0 8px #cdcdcd;
+	padding: 10px 20px;
+	display: none;
+	*border:1px solid #cdcdcd;
+}
+.pic_shuoming p{
+	line-height: 30px;
+}
+
+/*上传图片 预览*/
+.upimgbox{
+	position: relative;
+	background:#F8F8F8;
+	width:795px;
+	padding: 20px;
+	overflow: hidden;
+	color: #333;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.upimgbox img{
+	min-height: 50px;
+}
+.pro_textsuss{
+	position: absolute;
+	left: 200px;
+	top: 50%;
+	margin-top: -26px;
+}
+.img_lookbox{
+	position: relative;
+	border:1px solid #ececec;
+	margin-bottom: 20px;
+}
+.pro_imgover{
+	position: absolute;
+	color: #000;
+	left: 350px;
+	top: 50%;
+	margin-top: -7px;
+}
+.pro_imgline{
+	/*position: absolute;*/
+	width: 200px;
+	height: 13px;
+	background:#FFB900;
+	border:1px solid #EF9300;
+	margin-right: 20px;
+}
+.pro_delimg{
+	width: 60px;
+	height: 23px;
+	line-height: 23px;
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	right: 50px;
+	background: url(../images/collect/close.png) 0 0 no-repeat;
+	padding-left: 40px;
+	color: #999999;
+	cursor: pointer;
+}
+.pro_delimg:hover{
+	background: url(../images/collect/close.png) 0 100% no-repeat;
+	color: #333;
+}
+
+/*上传状态 隐藏..*/
+.progressWrapper{
+	display: none;
+}
