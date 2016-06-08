@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">text设置</string>
+    <string name="action_settings">Settings</string>
+    <string name="icon_hudong">互动</string>
+    <string name="icon_jieyue">借阅</string>
+    <string name="icon_qiangzuo">抢座</string>
+    <string name="icon_xinshengdaohang">新生导航</string>
+    <string name="icon_faxian">发现</string>
+    <string name="title_activity_centen">中间页</string>
+    <string name="title_viewPage">viewPage滑动</string>
+    <string name="radioButton">radioButton</string>
+    <string name="viewPage">viewPage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_son__freament">Son_Freament</string>
+    <string name="title_activity_son__freament_two">Son_Freament_two</string>
+
+</resources>

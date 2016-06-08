@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radio_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_text"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <RadioButton
+                android:id="@+id/radio_rb1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:button="@null"
+                android:drawableTop="@drawable/icon_1_b"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/icon_hudong"
+                android:textColor="@drawable/text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_rb2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:button="@null"
+                android:drawableTop="@drawable/icon_2_b"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/icon_jieyue"
+                android:textColor="@drawable/text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_rb3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:button="@null"
+                android:drawableTop="@drawable/icon_3_b"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/icon_faxian"
+                android:textColor="@drawable/text_color"
+                android:textSize="14sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

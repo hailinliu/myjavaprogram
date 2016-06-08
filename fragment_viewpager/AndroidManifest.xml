@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javaabtext_radiobutton"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.javaabtext_radiobutton.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.javaabtext_radiobutton.radio_Fragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.javaabtext_radiobutton.CentenActivity"
+            android:label="@string/title_activity_centen" >
+        </activity>
+        <activity
+            android:name="com.example.javaabtext_radiobutton.viewPage_Fragment"
+            android:label="title_viewPage" >
+        </activity>
+        <activity
+            android:name="com.example.javaabtext_radiobutton.Son_Freament"
+            android:label="@string/title_activity_son__freament" >
+        </activity>
+        <activity
+            android:name="com.example.javaabtext_radiobutton.Son_Freament_two"
+            android:label="@string/title_activity_son__freament_two" >
+        </activity>
+        <activity
+            android:name=".OtherActivity"
+            android:label="@string/app_name"/>
+    </application>
+
+</manifest>
